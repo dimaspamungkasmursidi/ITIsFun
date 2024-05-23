@@ -1,0 +1,98 @@
+/* src/index.css */
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #dfdcf3;
+}
+
+body {
+  background-color: #4abdac;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: 0.025em;
+}
+
+.transition-all {
+  transition: all 0.3s ease;
+}
+
+.gradientNav {
+  background: linear-gradient(
+    180deg,
+    #dfdcf3 0%,
+    rgba(250, 250, 250, 0.5) 40%,
+    rgba(67, 255, 205, 0) 100%
+  );
+  border: none;
+}
+
+.textShadow-title {
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+/* .textShadow-desc {
+  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.8);
+} */
+
+/* GOOGLE FONT */
+.londrina-regular {
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.londrina-black {
+  font-family: "Londrina Solid", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+}
+
+.titillium-light {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.titillium-regular {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.titillium-semibold {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.jersey {
+  font-family: "Jersey 10 Charted", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* .timmana {
+    font-family: "Timmana", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+  .tillana-regular {
+    font-family: "Tillana", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .tillana-medium {
+    font-family: "Tillana", system-ui;
+    font-weight: 500;
+    font-style: normal;
+  }
+  .tillana-semibold {
+    font-family: "Tillana", system-ui;
+    font-weight: 600;
+    font-style: normal;
+  } */
