@@ -35,7 +35,7 @@ function Navigation() {
       initial="hidden"
       animate="visible"
       layout
-      className="flex justify-between bg-opacity-50 backdrop-blur-lg bg-gradient-to-b from-tertiary to-primary sm:items-center border-none bg-tertiary py-4 sm:py-0 px-6 sm:px-12"
+      className="flex justify-between bg-opacity-50 backdrop-blur-lg gradientNav sm:items-center border-none bg-tertiary py-4 sm:py-0 px-6 sm:px-12"
     >
       {/* LOGO */}
       <div>
