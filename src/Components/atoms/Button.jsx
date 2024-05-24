@@ -1,8 +1,7 @@
-import { motion } from 'framer-motion';
-
+import { motion } from "framer-motion";
 
 const Button = (props) => {
-  const { children }= props;
+  const { children } = props;
 
   return (
     <motion.button
@@ -12,7 +11,7 @@ const Button = (props) => {
     >
       {children}
     </motion.button>
-  )
-}
+  );
+};
 
 export default Button;

@@ -35,9 +35,6 @@ body {
 .textShadow-title {
   text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
-/* .textShadow-desc {
-  text-shadow: 0px 0px 1px rgba(0, 0, 0, 0.8);
-} */
 
 /* GOOGLE FONT */
 .londrina-regular {
@@ -74,25 +71,3 @@ body {
   font-style: normal;
 }
 
-/* .timmana {
-    font-family: "Timmana", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  
-  .tillana-regular {
-    font-family: "Tillana", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  .tillana-medium {
-    font-family: "Tillana", system-ui;
-    font-weight: 500;
-    font-style: normal;
-  }
-  .tillana-semibold {
-    font-family: "Tillana", system-ui;
-    font-weight: 600;
-    font-style: normal;
-  } */

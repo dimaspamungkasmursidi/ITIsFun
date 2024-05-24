@@ -58,6 +58,14 @@ export default {
         "xxl": "1300px",
         "3xl": "1440px",
       },
+      backdropBlur: {
+        sm: '4px',
+        md: '12px',
+      },
+      backgroundColor: {
+        'glass-light': 'rgba(255, 255, 255, 0.2)',
+        'glass-dark': 'rgba(255, 255, 255, 0.2)',
+      },
     },
   },
   plugins: [],
