@@ -1,18 +1,22 @@
 import React from 'react'
 import Navigation from '../Components/organisms/Header/Navigation'
 import Hero from '../Components/organisms/Hero/Hero';
-import Paket from '../Components/organisms/Paket/Paket';
-// import Card from '../Components/organisms/Paket/Card';
-// import Test from '../Components/organisms/Paket/Test';
+import PaketBeranda from '../Components/organisms/Paket/PaketBeranda';
+import MarqueeText from '../Components/organisms/Hero/MarqueeText';
+import KontakKami from '../Components/organisms/Kontak/KontakKami';
+import TentangBeranda from '../Components/organisms/Tentang/TentangBeranda';
+import Footer from '../Components/organisms/Footer/Footer';
 
 const Beranda = () => {
   return (
     <>
     <Navigation />
     <Hero />
-    {/* <Card />
-    <Test /> */}
-    <Paket />
+    <MarqueeText />
+    <PaketBeranda />
+    <TentangBeranda />
+    <KontakKami />
+    <Footer />
     </>
   )
 }

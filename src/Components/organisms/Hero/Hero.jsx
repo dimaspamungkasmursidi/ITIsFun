@@ -1,6 +1,13 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 import Button from "../../atoms/Button";
+
+const generateWhatsAppLink = () => {
+  const phoneNumber = "6288297894942"; // Ganti dengan nomor WhatsApp Anda
+  const message = `Halo min, saya ingin bertanya tentang paket website yang disediakan IT Is Fun Studio.`;
+  return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
+};
 
 const Hero = () => {
   const container = {
@@ -17,12 +24,12 @@ const Hero = () => {
   };
 
   return (
-    <section className="flex justify-center py-6 lg:flex-nowrap xl:justify-between items-center flex-wrap-reverse sm:px-10">
+    <section className="flex justify-center mb-[4rem] sm:mb-4 sm:py-10 lg:flex-nowrap xl:justify-between items-center flex-wrap-reverse sm:px-8">
       {/* Left */}
       <div className="flex flex-col gap-6 md:max-w-xl mt-6 px-6">
         <div>
           <motion.h1
-            className="text-5xl font-bold londrina-black textShadow-title"
+            className="text-5xl font-bold londrina-black textShadow-title mb-2"
             initial={{ opacity: 0, y: -50 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8 }}
@@ -31,7 +38,7 @@ const Hero = () => {
           </motion.h1>
           <motion.p
             className="titillium-semibold text-justify textShadow-desc"
-            initial={{ opacity: 0, x: -50 }}
+            initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
           >
@@ -44,10 +51,19 @@ const Hero = () => {
             </span>
           </motion.p>
         </div>
-        <div>
-          <div>
-            <Button>Layanan</Button>
-          </div>
+        <div className="flex gap-4">
+          <Link to="/paket">
+          <Button>Layanan</Button>
+          </Link>
+          <a
+            href={generateWhatsAppLink()}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <Button color="bg-dark text-white hover:bg-tertiary hover:text-dark">
+              Konsultasi Gratis
+            </Button>
+          </a>
         </div>
       </div>
 
