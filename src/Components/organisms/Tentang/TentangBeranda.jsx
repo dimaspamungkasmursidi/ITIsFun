@@ -52,8 +52,8 @@ const TentangBeranda = () => {
           className="titillium-semibold max-w-3xl text-justify sm:text-center"
         >
           IT Is Fun Studio adalah penyedia layanan jasa pembuatan website yang
-          mengutamakan kualitas dan kepuasan pelanggan. Kami mengkhususkan diri
-          dalam merancang dan mengembangkan website yang responsif dan modern.
+          berkualitas. Bukan hanya itu, IT Is Fun juga menyediakan layanan
+          pembuatan CV profesional.
         </motion.p>
       </div>
 
@@ -70,7 +70,9 @@ const TentangBeranda = () => {
               key={index}
               ref={cardRef}
               initial={{ opacity: 0, y: 50 }}
-              animate={cardInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+              animate={
+                cardInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }
+              }
               transition={{ duration: 0.8, delay: 0.3 * index }}
               className="w-[20rem] h-[15rem] p-6 flex flex-col justify-center items-center border-2 border-secondary rounded-md"
             >
