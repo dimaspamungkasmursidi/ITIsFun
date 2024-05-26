@@ -13,7 +13,7 @@ const items = [
     desc2:
       "Harga tergantung dari pemilihan desain custom atau bukan serta panjangnya website 3 - 5 section.",
     price: "Rp.50.000 - Rp.200.000",
-    animation: { initial: { opacity: 0, x: 50 }, animate: { opacity: 1, x: 0 } }
+    animation: { initial: { opacity: 0, y: -50 }, animate: { opacity: 1, y: 0 } }
   },
   {
     title: "Profile Company Website",
