@@ -69,7 +69,7 @@ const Form = () => {
                   id="full-name"
                   required=""
                   placeholder="Masukkan nama kamu"
-                  className="w-full p-1.5 mb-4 mt-1 bg-glass-light dark:bg-glass-dark backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                  className="appearance-none w-full p-1.5 mb-4 mt-1 text-secondary bg-glass-light backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
                 />
                 <ValidationError
                   prefix="Name"
@@ -90,7 +90,7 @@ const Form = () => {
                   required=""
                   id="email"
                   placeholder="Masukkan email kamu"
-                  className="w-full p-1.5 mb-4 mt-1 bg-glass-light dark:bg-glass-dark backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                  className="appearance-none w-full p-1.5 mb-4 mt-1 text-secondary bg-glass-light backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
                 />
                 <ValidationError
                   prefix="Email"
@@ -112,7 +112,7 @@ const Form = () => {
                   rows="4"
                   required=""
                   placeholder="Masukkan pesan yang mau kamu tanyakan"
-                  className="w-full p-1.5 mb-4 mt-1 bg-glass-light dark:bg-glass-dark backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                  className="appearance-none w-full p-1.5 mb-4 mt-1 text-secondary bg-glass-light backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
                 ></textarea>
                 <ValidationError
                   prefix="Message"

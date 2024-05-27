@@ -33,17 +33,6 @@ const items = [
     price: "Rp.150.000 - Rp.500.000",
     animation: { initial: { opacity: 0, x: -50 }, animate: { opacity: 1, x: 0 } }
   }
-
-  // ANIMASI SCALE
-  // {
-  //   title: "Personal Website",
-  //   desc1:
-  //     "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk melamar pekerjaan IT, dan lain-lain.",
-  //   desc2:
-  //     "Harga tergantung dari pemilihan desain custom atau bukan, jumlah halaman website tersebut, serta biaya hosting berbayar atau gratis.",
-  //   price: "Rp.150.000 - Rp.500.000",
-  //   animation: { initial: { opacity: 0, scale: 0.8 }, animate: { opacity: 1, scale: 1 } }
-  // }
 ];
 
 const generateWhatsAppLink = (itemName) => {
@@ -110,7 +99,7 @@ const PaketBeranda = () => {
               <motion.div
                 ref={cardRef}
                 key={index}
-                className="max-w-sm mx-auto p-6 bg-glass-light dark:bg-glass-dark rounded-md backdrop-blur-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                className="max-w-sm mx-auto p-6 bg-white/20 backdrop-blur-md rounded-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
                 initial={item.animation.initial}
                 animate={cardInView ? item.animation.animate : item.animation.initial}
                 transition={{ duration: 0.8, delay: index * 0.2 }}
@@ -136,7 +125,7 @@ const PaketBeranda = () => {
 
       {/* MODAL */}
       {modalVisible && selectedItem && (
-        <section className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+        <section className="fixed inset-0 flex items-center justify-center bg-black/60 backdrop-blur-md z-50">
           <motion.div
             className="relative bg-white p-6 rounded-lg shadow-lg text-dark"
             initial={{ opacity: 0, scale: 0.8 }}

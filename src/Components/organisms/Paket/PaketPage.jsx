@@ -207,7 +207,7 @@ const PaketPage = () => {
   
     return (
       <>
-        <section className="flex flex-col justify-center items-center p-6 gap-6 pt-10 sm:pt-20">
+        <section className="flex flex-col justify-center items-center p-6 gap-6 pt-10 sm:pt-14">
           {/* TEXT */}
           <div className="flex flex-col justify-center items-center">
             <motion.h1
@@ -269,7 +269,7 @@ const PaketPage = () => {
   
         {/* MODAL */}
         {modalVisible && selectedItem && (
-          <section className="fixed inset-0 flex items-center justify-center bg-black bg-opacity-50 z-50">
+          <section className="fixed inset-0 flex items-center justify-center bg-black/50 backdrop-blur-md z-50">
             <motion.div
               className="relative bg-tertiary p-6 rounded-lg shadow-lg text-dark"
               initial={{ opacity: 0, scale: 0.8 }}
@@ -281,7 +281,7 @@ const PaketPage = () => {
               </h2>
               <button
                 onClick={closeModal}
-                className="w-6 text-2xl text-gray-500 hover:text-gray-700 absolute top-2 right-4"
+                className="w-6 text-2xl text-white hover:text-gray-700 absolute top-2 right-4"
               >
                 ✖
               </button>
@@ -324,7 +324,7 @@ const PaketPage = () => {
     return (
       <motion.div
         ref={cardRef}
-        className="max-w-sm mx-auto p-6 bg-glass-light dark:bg-glass-dark rounded-md backdrop-blur-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+        className="max-w-sm mx-auto p-6 bg-glass-light rounded-md backdrop-blur-sm shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
         initial={item.animation.initial}
         animate={
           cardInView ? item.animation.animate : item.animation.initial

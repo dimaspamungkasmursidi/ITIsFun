@@ -48,7 +48,7 @@ const KontakKami = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={cardInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8 }}
-          className="w-full max-w-2xl p-6 bg-glass-light rounded-md backdrop-blur-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+          className="w-full max-w-2xl p-6 bg-white/20 rounded-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
         >
           <form action="">
             <div>
@@ -63,7 +63,7 @@ const KontakKami = () => {
                 name="Name"
                 id="Name"
                 placeholder="Masukkan nama kamu"
-                className="w-full p-1.5 mb-4 mt-1 bg-glass-light dark:bg-glass-dark backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                className="w-full p-1.5 mb-4 mt-1 bg-white/20 text-secondary rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
               />
             </div>
             <div>
@@ -78,7 +78,7 @@ const KontakKami = () => {
                 name="Email"
                 id="Email"
                 placeholder="Masukkan email kamu"
-                className="w-full p-1.5 mb-4 mt-1 bg-glass-light dark:bg-glass-dark backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                className="w-full p-1.5 mb-4 mt-1 bg-white/20 text-secondary rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
               />
             </div>
             <div>
@@ -94,7 +94,7 @@ const KontakKami = () => {
                 cols="30"
                 rows="4"
                 placeholder="Masukkan pesan yang mau kamu tanyakan"
-                className="w-full p-1.5 mb-4 mt-1 bg-glass-light dark:bg-glass-dark backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                className="w-full p-1.5 mb-4 mt-1 bg-white/20 text-secondary rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
               ></textarea>
             </div>
           </form>

@@ -3,7 +3,7 @@ import React from "react";
 const MarqueeText = () => {
   return (
     <>
-      <div className="bg-tertiary py-1 backdrop-blur-xl shadow-[2.0px_6.0px_5.0px_rgba(0,0,0,0.38)] bg-opacity-30">
+      <div className="bg-tertiary/30 py-1 shadow-[2.0px_6.0px_5.0px_rgba(0,0,0,0.38)]">
         <marquee behavior="scroll" direction="left">
           <p className="text-4xl londrina-regular textShadow-title">Jasa pembuatan website Termurah Se-Indonesia hanya di IT Is Fun Studio</p>
         </marquee>
