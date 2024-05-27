@@ -172,6 +172,7 @@ const items = [
     },
     category: "Pembuatan CV",
   },
+  //   PEMELIHARAAN------------------------------------------------------
   {
     title: "Revisi Website",
     desc1:
@@ -182,9 +183,8 @@ const items = [
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Pemeliharaan",
+    category: "Pemeliharaan Website/CV",
   },
-  //   PEMELIHARAAN------------------------------------------------------
   {
     title: "Revisi CV",
     desc1:
@@ -195,7 +195,7 @@ const items = [
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Pemeliharaan",
+    category: "Pemeliharaan Website/CV",
   },
   {
     title: "Maintenance Website",
@@ -207,7 +207,7 @@ const items = [
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Pemeliharaan",
+    category: "Pemeliharaan Website/CV",
   },
 ];
 
