@@ -6,7 +6,7 @@ import { BsLaptop, BsPerson } from "react-icons/bs";
 const items = [
   {
     Image: BsLaptop,
-    title: "Penbuatan Website",
+    title: "Pembuatan Website",
     desc: "Kami merancang dan mengembangkan website yang responsif, modern, dan fungsional.",
   },
   {
