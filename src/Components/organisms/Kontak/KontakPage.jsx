@@ -57,21 +57,21 @@ const KontakPage = () => {
             Sosial Media
           </motion.h1>
           <div className="flex flex-row justify-center items-center gap-6">
-            <a href="https://www.instagram.com/dmspamungkass/">
+            <a href="https://www.instagram.com/itsfunacademy/">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                 <button>
                   <CiInstagram size={60} />
                 </button>
               </motion.div>
             </a>
-            <a href="https://www.linkedin.com/in/dimas-pamungkas-mursidi-7511b9262/">
+            {/* <a href="https://www.linkedin.com/in/dimas-pamungkas-mursidi-7511b9262/">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                 <button>
                   <CiLinkedin size={60} />
                 </button>
               </motion.div>
-            </a>
-            <a href="mailto:dmspmksmrsdi@gmail.com">
+            </a> */}
+            <a href="mailto:dimpam19@gmail.com">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                 <button>
                   <CiMail size={60} />
