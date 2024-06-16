@@ -7,32 +7,44 @@ import { Link } from "react-router-dom";
 
 const items = [
   {
-    title: "Landing Page",
+    title: "Landing Page Simpel",
     desc1:
-      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan maupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
+      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
-      "Harga tergantung dari pemilihan desain custom atau bukan serta panjangnya website 3 - 5 section.",
-    price: "Rp.50.000 - Rp.200.000",
-    animation: { initial: { opacity: 0, y: -50 }, animate: { opacity: 1, y: 0 } }
+      "Maximal 5 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
+    price: "Rp.50.000",
+    animation: {
+      initial: { opacity: 0, scale: 0.8 },
+      animate: { opacity: 1, scale: 1 },
+    },
+    category: "Landing Page",
   },
   {
-    title: "Profile Company Website",
+    title: "Profile Company Reguler",
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-      "Harga tergantung dari pemilihan desain custom atau bukan, jumlah halaman website tersebut, serta biaya hosting berbayar atau gratis.",
-    price: "Rp.100.000 - Rp.500.000",
-    animation: { initial: { opacity: 0, y: 50 }, animate: { opacity: 1, y: 0 } }
+      "Maximal 3 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
+    price: "Rp.150.000",
+    animation: {
+      initial: { opacity: 0, scale: 0.8 },
+      animate: { opacity: 1, scale: 1 },
+    },
+    category: "Profile Company",
   },
   {
-    title: "Personal Website",
+    title: "Personal Website Reguler",
     desc1:
-      "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk melamar pekerjaan IT, dan lain-lain.",
+      "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
-      "Harga tergantung dari pemilihan desain custom atau bukan, jumlah halaman website tersebut, serta biaya hosting berbayar atau gratis.",
-    price: "Rp.150.000 - Rp.500.000",
-    animation: { initial: { opacity: 0, x: -50 }, animate: { opacity: 1, x: 0 } }
-  }
+      "Maximal 3 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
+    price: "Rp.150.000",
+    animation: {
+      initial: { opacity: 0, scale: 0.8 },
+      animate: { opacity: 1, scale: 1 },
+    },
+    category: "Personal Website",
+  },
 ];
 
 const generateWhatsAppLink = (itemName) => {
@@ -125,9 +137,12 @@ const PaketBeranda = () => {
 
       {/* MODAL */}
       {modalVisible && selectedItem && (
-        <section className="fixed inset-0 flex items-center justify-center bg-black/60 backdrop-blur-md z-50">
+        <section
+          className="fixed inset-0 p-4 flex items-center justify-center bg-black/50 backdrop-blur-md z-50"
+          onClick={closeModal}
+        >
           <motion.div
-            className="relative bg-white p-6 rounded-lg shadow-lg text-dark"
+            className="relative max-w-4xl bg-tertiary p-6 rounded-lg shadow-lg text-dark"
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ duration: 0.3 }}
@@ -135,20 +150,37 @@ const PaketBeranda = () => {
             <h2 className="londrina-regular text-2xl font-bold mb-4 text-black">
               {selectedItem.title}
             </h2>
-            <button
+            <motion.button
               onClick={closeModal}
-              className="w-6 text-2xl text-gray-500 hover:text-gray-700 absolute top-2 right-4"
+              initial={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 1 }}
+              whileHover={{ rotate: 180 }}
+              transition={{ duration: 0.3 }}
+              className="w-6 text-2xl text-secondary hover:text-gray-700 absolute top-2 right-4"
             >
               ✖
-            </button>
+            </motion.button>
             <p className="text-dark font-semibold">Deskripsi :</p>
-            <p className="text-dark text-justify indent-5 sm:indent-0">
+            <p className="text-dark text-justify indent-5 sm:indent-0 mb-2">
               {selectedItem.desc1}
             </p>
-            <p className="mb-4 text-dark text-justify indent-5 sm:indent-0">
-              {selectedItem.desc2}
+            <p className="text-dark font-semibold">Spesifikasi :</p>
+            <p className="text-dark text-justify indent-2 mb-4">
+              <ul className="list-disc list-inside">
+                {selectedItem.desc2.split("\n").map((item, index) => (
+                  <li className="text-dark" key={index}>
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </p>
-            <p className="mb-4 font-bold text-dark">{selectedItem.price}</p>
+            <p className="text-[18px] font-bold text-secondary animate-pulse">
+              Untuk melihat paket lainnya {" "}
+              <Link to="/paket" className="text-primary">(Klik Disini)</Link>
+            </p>
+            <p className="mt-2 mb-4 text-[18px] font-bold text-dark">
+              {selectedItem.price}
+            </p>
             <a
               href={generateWhatsAppLink(selectedItem.title)}
               target="_blank"

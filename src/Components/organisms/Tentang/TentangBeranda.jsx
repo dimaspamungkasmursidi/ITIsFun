@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { BsLaptop, BsPerson } from "react-icons/bs";
+import { GrHostMaintenance } from "react-icons/gr";
 
 const items = [
   {
@@ -14,6 +15,11 @@ const items = [
     title: "Pembuatan CV",
     desc: "Selain website, kami juga menyediakan layanan pembuatan CV profesional.",
   },
+  {
+    Image: GrHostMaintenance,
+    title: "Revisi/Maintenance Website",
+    desc: "Kami juga menyediakan layanan revisi dan maintenance mingguan dan bulanan.",
+  },
 ];
 
 const TentangBeranda = () => {
@@ -21,6 +27,7 @@ const TentangBeranda = () => {
     triggerOnce: true,
     threshold: 0.2,
   });
+
   const [cardRefs, setCardRefs] = React.useState([]);
 
   React.useEffect(() => {

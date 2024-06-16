@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Button from "../../atoms/Button";
+import Form from "./Form";
 
 const KontakKami = () => {
   const [textRef, textInView] = useInView({
@@ -41,66 +42,8 @@ const KontakKami = () => {
         </motion.p>
       </div>
 
-      {/* CARD */}
-      <div className="flex flex-col justify-center items-center w-full">
-        <motion.div
-          ref={cardRef}
-          initial={{ opacity: 0, y: 50 }}
-          animate={cardInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-          transition={{ duration: 0.8 }}
-          className="w-full max-w-2xl p-6 bg-white/20 rounded-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
-        >
-          <form action="">
-            <div>
-              <label
-                className="londrina-reguler font-semibold text-white"
-                htmlFor="Name"
-              >
-                Nama kamu :
-              </label>
-              <input
-                type="text"
-                name="Name"
-                id="Name"
-                placeholder="Masukkan nama kamu"
-                className="w-full p-1.5 mb-4 mt-1 bg-white/20 text-secondary rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
-              />
-            </div>
-            <div>
-              <label
-                className="londrina-reguler font-semibold text-white"
-                htmlFor="Email"
-              >
-                Email kamu :
-              </label>
-              <input
-                type="email"
-                name="Email"
-                id="Email"
-                placeholder="Masukkan email kamu"
-                className="w-full p-1.5 mb-4 mt-1 bg-white/20 text-secondary rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
-              />
-            </div>
-            <div>
-              <label
-                className="londrina-reguler font-semibold text-white"
-                htmlFor="Message"
-              >
-                Pesan :
-              </label>
-              <textarea
-                name="Message"
-                id="Message"
-                cols="30"
-                rows="4"
-                placeholder="Masukkan pesan yang mau kamu tanyakan"
-                className="w-full p-1.5 mb-4 mt-1 bg-white/20 text-secondary rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
-              ></textarea>
-            </div>
-          </form>
-          <Button>Kirim</Button>
-        </motion.div>
-      </div>
+      {/* FORM */}
+      <Form />
 
       {/* IMAGE */}
       <div className="absolute hidden sm:block left-10 top-10">

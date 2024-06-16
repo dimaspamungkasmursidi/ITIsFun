@@ -5,13 +5,13 @@ import Button from "../../atoms/Button";
 import { FaWhatsapp } from "react-icons/fa";
 
 const items = [
-  // LANDING PAGE------------------------------------------------------
+  // LANDING PAGE------------------------------------------------------------------------------------------------------------
   {
     title: "Landing Page Simpel",
     desc1:
-      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan maupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
+      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
-      "1 halaman 3 section, Hosting gratis di vercel.app (hanya bisa diakses melalui link), Desain dari template yang sudah tersedia.",
+      "Maximal 5 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
     price: "Rp.50.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -22,11 +22,10 @@ const items = [
   {
     title: "Landing Page Reguler",
     desc1:
-      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan maupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
+      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
-      "1 Halaman maksimal 5 section, Hosting gratis di vercel.app (hanya bisa diakses melalui link), Desain custom.",
-    price: "Rp.70.000",
-    keterangan: "Dapat Source Code",
+      "Maximal 10 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
+    price: "Rp.120.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -36,24 +35,24 @@ const items = [
   {
     title: "Landing Page Premium",
     desc1:
-      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan maupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
+      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
-      "1 Halaman maksimal 10 section, Hosting gratis di vercel.app (hanya bisa diakses melalui link), Desain custom + dapat Source Code.",
-    keterangan: "Dapat Source Code",
-    price: "Rp.150.000",
+      "Maximal 10 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security aman\n Hosting & Domain gratis\n Email profesional gratis\n SSL gratis\n Gratis revisi 2X",
+    keterangan: "Website Profesional, masa aktif 1 tahun (Bisa diperpanjang).",
+    price: "Rp.800.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
     category: "Landing Page",
   },
-  //   PROFILE COMPANY------------------------------------------------------
+  //   PROFILE COMPANY------------------------------------------------------------------------------------------------------------
   {
     title: "Profile Company Reguler",
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-      "2 Halaman, Hosting gratis di vercel.app (hanya bisa diakses melalui link), Desain dari template yang sudah tersedia.",
+      "Maximal 3 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
     price: "Rp.150.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -66,10 +65,8 @@ const items = [
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-      "3 Halaman, Hosting gratis di vercel.app (hanya bisa diakses melalui link), Desain custom, Harga 200K.",
-    keterangan:
-      "Jika untuk website profesional silahkan tanyakan/diskusi harga dengan tim IT Is Fun Studio",
-    price: "Rp.200.000 - Rp.650.000",
+      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
+    price: "Rp.250.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -81,24 +78,24 @@ const items = [
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-      "3-4 Halaman, gratis hosting profesional, Domain custom menggunakan .my.id/.com, Gratis Email, Gratis sertifikat SSL, Desain custom, Dan lain-lain.",
-    price: "Rp.500.000-Rp.1.400.000",
+      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security aman\n Hosting & Domain gratis\n Email profesional gratis\n SSL gratis\n Gratis revisi 2X",
+    price: "Rp.1.000.000",
     keterangan:
-      "Masa aktif Website 3 bulah - 1 tahun. Harga tergantung dari spesifikasi website, silahkan tanyakan/diskusi dengan tim IT Is Fun Studio",
+      "Website Profesional, masa aktif Website 1 tahun (Bisa diperpanjang).",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
     category: "Profile Company",
   },
-  //   PERSONAL WEBSITE------------------------------------------------------
+  //   PERSONAL WEBSITE------------------------------------------------------------------------------------------------------------
   {
     title: "Personal Website Reguler",
     desc1:
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
-      "3 Halaman, Hosting gratis di vercel.app (hanya bisa diakses melalui link), Desain dari template yang sudah tersedia.",
-    price: "Rp.120.000",
+      "Maximal 3 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
+    price: "Rp.150.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -110,9 +107,8 @@ const items = [
     desc1:
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
-      "4-5 Halaman, Hosting gratis di vercel.app (hanya bisa diakses melalui link), Desain custom + dapat Source Code.",
-    keterangan: "Dapat Source Code",
-    price: "Rp.200.000",
+      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
+    price: "Rp.250.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -124,16 +120,16 @@ const items = [
     desc1:
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
-      "Harga tergantung dari pemilihan desain custom atau bukan, jumlah halaman website tersebut, serta biaya hosting berbayar atau gratis.",
-    keterangan: "Masa aktif Website 1 tahun + Dapat Source Code",
-    price: "Rp.650.000",
+      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security aman\n Hosting & Domain gratis\n Email profesional gratis\n SSL gratis\n Gratis revisi 2X",
+    price: "Rp.1.000.000",
+    keterangan: "Website Profesional, masa aktif Website 1 tahun (Bisa diperpanjang).",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
     category: "Personal Website",
   },
-  //   WEBSITE CUSTOM------------------------------------------------------
+  //   WEBSITE CUSTOM------------------------------------------------------------------------------------------------------------
   {
     title: "Website Custom",
     desc1: "Website custom sesuai kebutuhan. Cocok untuk semua kebutuhan anda.",
@@ -141,19 +137,20 @@ const items = [
     keterangan:
       "Spesifikasi website silahkan diskusikan dengan tim IT Is Fun Studio. Harga tergantung dari spesifikasi website.",
     price: "Rp.-",
+    keterangan: "Mari diskusikan dengan kami website seperti apa yang anda inginkan.",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
     category: "Website Custom",
   },
-  //   Pembuatan CV------------------------------------------------------
+  //   Pembuatan CV------------------------------------------------------------------------------------------------------------
   {
     title: "CV ATS",
     desc1:
       "CV ATS cocok untuk melamar pekerjaan di industri yang lebih formal dan perusahaan besar yang menggunakan ATS untuk menyaring aplikasi. Gunakan ini untuk memastikan CV Anda melewati penyaringan awal dan sampai ke perekrut manusia.",
-    desc2: "CV + Dapat Surat Lamaran Pekerjaan",
-    price: "Rp.20.000",
+    desc2: "1 file pdf CV ATS",
+    price: "Rp.15.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -163,20 +160,19 @@ const items = [
   {
     title: "CV Kreatif",
     desc1:
-      "CV Kreatif cocok untuk melamar pekerjaan di industri menengah ke bawah dan industri kreatif dan peran yang menuntut kreativitas serta inovasi. Gunakan ini saat Anda tahu perekrut akan menghargai desain visual dan ketika Anda mengirimkan CV langsung ke email atau orang yang akan membaca CV tersebut.",
-    desc2: "CV + Dapat Surat Lamaran Pekerjaan",
-    price: "Rp.20.000",
+      "CV Kreatif cocok untuk melamar pekerjaan di industri menengah ke bawah, industri kreatif dan peran yang menuntut kreativitas serta inovasi. Gunakan ini saat Anda tahu perekrut akan menghargai desain visual ataupun ketika Anda mengirimkan CV langsung ke email atau orang yang akan membaca CV tersebut.",
+      desc2: "1 file pdf CV Kreatif",
+      price: "Rp.15.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
     category: "Pembuatan CV",
   },
-  //   PEMELIHARAAN------------------------------------------------------
+  //   PEMELIHARAAN------------------------------------------------------------------------------------------------------------
   {
     title: "Revisi Website",
-    desc1:
-      "Revisi bagian website yang ingin diubah sesuai kebutuhan.",
+    desc1: "Revisi bagian website yang ingin diubah sesuai kebutuhan.",
     desc2: "Harga untuk 1 kali revisi.",
     price: "Rp.20.000",
     animation: {
@@ -187,8 +183,7 @@ const items = [
   },
   {
     title: "Revisi CV",
-    desc1:
-      "Revisi bagian CV yang ingin diubah sesuai kebutuhan.",
+    desc1: "Revisi bagian CV yang ingin diubah sesuai kebutuhan.",
     desc2: "Harga untuk 1 kali revisi.",
     price: "Rp.5.000",
     animation: {
@@ -312,7 +307,10 @@ const PaketPage = () => {
 
       {/* MODAL */}
       {modalVisible && selectedItem && (
-        <section className="fixed inset-0 flex items-center justify-center bg-black/50 backdrop-blur-md z-50">
+        <section
+          className="fixed inset-0 p-4 flex items-center justify-center bg-black/50 backdrop-blur-md z-50"
+          onClick={closeModal}
+        >
           <motion.div
             className="relative max-w-4xl bg-tertiary p-6 rounded-lg shadow-lg text-dark"
             initial={{ opacity: 0, scale: 0.8 }}
@@ -322,19 +320,29 @@ const PaketPage = () => {
             <h2 className="londrina-regular text-2xl font-bold mb-4 text-black">
               {selectedItem.title}
             </h2>
-            <button
+            <motion.button
               onClick={closeModal}
-              className="w-6 text-2xl text-white hover:text-gray-700 absolute top-2 right-4"
+              initial={{ opacity: 1, y: 0 }}
+              animate={{ opacity: 1, y: 1 }}
+              whileHover={{ rotate: 180 }}
+              transition={{ duration: 0.3 }}
+              className="w-6 text-2xl text-secondary hover:text-gray-700 absolute top-2 right-4"
             >
               ✖
-            </button>
+            </motion.button>
             <p className="text-dark font-semibold">Deskripsi :</p>
             <p className="text-dark text-justify indent-5 sm:indent-0 mb-2">
               {selectedItem.desc1}
             </p>
             <p className="text-dark font-semibold">Spesifikasi :</p>
-            <p className="text-dark text-justify indent-5 sm:indent-0 mb-2">
-              {selectedItem.desc2}
+            <p className="text-dark text-justify indent-2 mb-4">
+              <ul className="list-disc list-inside">
+                {selectedItem.desc2.split("\n").map((item, index) => (
+                  <li className="text-dark" key={index}>
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </p>
             <p className="text-[18px] font-bold text-secondary animate-pulse">
               {selectedItem.keterangan}

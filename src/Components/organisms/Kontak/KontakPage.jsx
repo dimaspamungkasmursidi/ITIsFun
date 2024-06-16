@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import Form from "./Form";
-import { CiLinkedin, CiInstagram, CiMail } from "react-icons/ci";
+import { CiInstagram, CiMail } from "react-icons/ci";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 
 const KontakPage = () => {
@@ -125,8 +125,6 @@ const KontakPage = () => {
             hubungi kami.
           </motion.p>
         </div>
-
-        {/* FORM */}
         <Form />
       </div>
     </section>

@@ -52,7 +52,7 @@ const Form = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={cardInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8 }}
-          className="w-full max-w-2xl h-[25.5rem] p-6 bg-glass-light rounded-md backdrop-blur-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+          className="w-full max-w-2xl h-full p-6 bg-glass-light rounded-md backdrop-blur-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
         >
           <form action="" onSubmit={handleSubmit}>
             <fieldset id="fs-frm-inputs">
@@ -69,7 +69,7 @@ const Form = () => {
                   id="full-name"
                   required=""
                   placeholder="Masukkan nama kamu"
-                  className="appearance-none w-full p-1.5 mb-4 mt-1 text-secondary bg-glass-light backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                  className="appearance-none w-full p-1.5 pl-4 mb-4 mt-1 text-secondary bg-glass-light backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
                 />
                 <ValidationError
                   prefix="Name"
@@ -90,7 +90,7 @@ const Form = () => {
                   required=""
                   id="email"
                   placeholder="Masukkan email kamu"
-                  className="appearance-none w-full p-1.5 mb-4 mt-1 text-secondary bg-glass-light backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                  className="appearance-none w-full p-1.5 pl-4 mb-4 mt-1 text-secondary bg-glass-light backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
                 />
                 <ValidationError
                   prefix="Email"
@@ -112,7 +112,7 @@ const Form = () => {
                   rows="4"
                   required=""
                   placeholder="Masukkan pesan yang mau kamu tanyakan"
-                  className="appearance-none w-full p-1.5 mb-4 mt-1 text-secondary bg-glass-light backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                  className="appearance-none w-full p-1.5 pl-4 mb-4 mt-1 text-secondary bg-glass-light backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
                 ></textarea>
                 <ValidationError
                   prefix="Message"
