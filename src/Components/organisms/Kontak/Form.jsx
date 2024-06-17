@@ -101,7 +101,7 @@ const Form = () => {
               <div>
                 <label
                   className="londrina-reguler font-semibold text-white"
-                  htmlFor="Message"
+                  htmlFor="message"
                 >
                   Pesan :
                 </label>
