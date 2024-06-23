@@ -41,7 +41,12 @@ function Navigation() {
       <div>
         <figure>
           <Link to="/">
-            <img src="/darklogo.png" alt="logo" className="w-20 h-10" />
+            <img
+              src="/darklogo.png"
+              alt="logo"
+              width="100"
+              height="40"
+            />
           </Link>
         </figure>
       </div>
@@ -96,18 +101,18 @@ function Navigation() {
               isOpen ? "block" : "hidden"
             } sm:flex sm:items-center sm:space-x-6 transition-all duration-300`}
           >
-          <ul className="group flex flex-col pb-6 text-lg sm:pt-4 sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
-            {["Beranda", "Paket", "Kontak", "Tentang"].map((text, index) => (
-              <motion.li
-                key={index}
-                variants={item}
-                whileHover={{ scale: 1.1, color: "#FC4A1A" }}
-                className="cursor-pointer font-bold text-dark"
-              >
-                <Link to={`/${text.toLowerCase()}`}>{text}</Link>
-              </motion.li>
-            ))}
-          </ul>
+            <ul className="group flex flex-col pb-6 text-lg sm:pt-4 sm:flex-row space-y-4 sm:space-y-0 sm:space-x-6">
+              {["Beranda", "Paket", "Kontak", "Tentang"].map((text, index) => (
+                <motion.li
+                  key={index}
+                  variants={item}
+                  whileHover={{ scale: 1.1, color: "#FC4A1A" }}
+                  className="cursor-pointer font-bold text-dark"
+                >
+                  <Link to={`/${text.toLowerCase()}`}>{text}</Link>
+                </motion.li>
+              ))}
+            </ul>
           </nav>
         </div>
       </div>

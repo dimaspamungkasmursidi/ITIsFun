@@ -37,7 +37,7 @@ const Hero = () => {
             IT Is Fun Studio
           </motion.h1>
           <motion.p
-            className="titillium-semibold text-justify textShadow-desc"
+            className="titillium-semibold text-justify textShadow-desc opacity-5 transform-none"
             initial={{ opacity: 0, x: 50 }}
             animate={{ opacity: 1, x: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
@@ -76,7 +76,7 @@ const Hero = () => {
         className="mt-10 px-4"
       >
         <figure className="max-w-sm md:max-w-lg">
-          <img src="/images/hero.gif" alt="Hero.gif" />
+          <img src="/images/hero.webp" alt="Hero.webp" width={"100%"} height={"100%"} />
         </figure>
       </motion.div>
     </section>
