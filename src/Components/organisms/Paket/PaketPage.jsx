@@ -11,8 +11,8 @@ const items = [
     desc1:
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
-      "Maximal 5 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
-    price: "Rp.50.000",
+      "Maximal 5 section\n Desain Template\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+    price: "Rp.150.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -24,8 +24,8 @@ const items = [
     desc1:
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
-      "Maximal 10 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
-    price: "Rp.120.000",
+    "Maximal 7 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+    price: "Rp.200.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -37,7 +37,7 @@ const items = [
     desc1:
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
-      "Maximal 10 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security aman\n Hosting & Domain gratis\n Email profesional gratis\n SSL gratis\n Gratis revisi 2X",
+      "Maximal 10 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X",
     keterangan: "Website Profesional, masa aktif 1 tahun (Bisa diperpanjang).",
     price: "Rp.800.000",
     animation: {
@@ -52,8 +52,8 @@ const items = [
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-      "Maximal 3 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
-    price: "Rp.150.000",
+      "Maximal 3 Halaman\n Desain Template\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+    price: "Rp.200.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -65,7 +65,7 @@ const items = [
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
+    "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
     price: "Rp.250.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -78,7 +78,7 @@ const items = [
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security aman\n Hosting & Domain gratis\n Email profesional gratis\n SSL gratis\n Gratis revisi 2X",
+    "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X",
     price: "Rp.1.000.000",
     keterangan:
       "Website Profesional, masa aktif Website 1 tahun (Bisa diperpanjang).",
@@ -94,8 +94,8 @@ const items = [
     desc1:
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
-      "Maximal 3 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
-    price: "Rp.150.000",
+    "Maximal 3 Halaman\n Desain Template\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+    price: "Rp.200.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -107,7 +107,7 @@ const items = [
     desc1:
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
-      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
+    "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
     price: "Rp.250.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -120,7 +120,7 @@ const items = [
     desc1:
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
-      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security aman\n Hosting & Domain gratis\n Email profesional gratis\n SSL gratis\n Gratis revisi 2X",
+    "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X",
     price: "Rp.1.000.000",
     keterangan: "Website Profesional, masa aktif Website 1 tahun (Bisa diperpanjang).",
     animation: {
@@ -149,7 +149,7 @@ const items = [
     title: "CV ATS",
     desc1:
       "CV ATS cocok untuk melamar pekerjaan di industri yang lebih formal dan perusahaan besar yang menggunakan ATS untuk menyaring aplikasi. Gunakan ini untuk memastikan CV Anda melewati penyaringan awal dan sampai ke perekrut manusia.",
-    desc2: "1 file pdf CV ATS",
+    desc2: "Dapat file Word dan Pdf CV ATS",
     price: "Rp.15.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -161,8 +161,32 @@ const items = [
     title: "CV Kreatif",
     desc1:
       "CV Kreatif cocok untuk melamar pekerjaan di industri menengah ke bawah, industri kreatif dan peran yang menuntut kreativitas serta inovasi. Gunakan ini saat Anda tahu perekrut akan menghargai desain visual ataupun ketika Anda mengirimkan CV langsung ke email atau orang yang akan membaca CV tersebut.",
-      desc2: "1 file pdf CV Kreatif",
+      desc2: "Dapat file Word dan Pdf CV Kreatif",
       price: "Rp.15.000",
+    animation: {
+      initial: { opacity: 0, scale: 0.8 },
+      animate: { opacity: 1, scale: 1 },
+    },
+    category: "Pembuatan CV",
+  },
+  {
+    title: "Surat Lamaran Pekerjaan",
+    desc1:
+      "Surat Lamaran Pekerjaan yang berisi permohonan lamaran pekerjaan.",
+      desc2: "Dapat file Word dan Pdf Surat Lamaran Pekerjaan",
+      price: "Rp.10.000",
+    animation: {
+      initial: { opacity: 0, scale: 0.8 },
+      animate: { opacity: 1, scale: 1 },
+    },
+    category: "Pembuatan CV",
+  },
+  {
+    title: "CV + Surat Lamaran Pekerjaan",
+    desc1:
+      "Surat Lamaran Pekerjaan + CV siap kirim ke perekrut.",
+      desc2: "Dapat file Word dan Pdf CV + Surat Lamaran Pekerjaan",
+      price: "Rp.20.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -193,9 +217,20 @@ const items = [
     category: "Pemeliharaan Website/CV",
   },
   {
+    title: "Revisi Website",
+    desc1: "Revisi bagian kecil website yang ingin diubah sesuai kebutuhan.",
+    desc2: "Harga untuk 1 kali revisi.",
+    price: "Rp.10.000",
+    animation: {
+      initial: { opacity: 0, scale: 0.8 },
+      animate: { opacity: 1, scale: 1 },
+    },
+    category: "Pemeliharaan Website/CV",
+  },
+  {
     title: "Maintenance Website",
     desc1:
-      "Memastikan website tetap aktif dan berjalan dengan baik, memperbaharui bagian yang ingin diubah, dan lain-lain.",
+      "Memastikan website tetap aktif dan berjalan dengan baik, memperbaharui bagian kecil yang ingin diubah, dan lain-lain.",
     desc2: "Menyediakan maintenance mingguan dan bulanan.",
     price: "Rp.50.000 - Rp.200.000",
     animation: {
@@ -208,7 +243,7 @@ const items = [
 
 const generateWhatsAppLink = (itemName) => {
   const phoneNumber = "6288297894942"; // Ganti dengan nomor WhatsApp Anda
-  const message = `Halo min, saya ingin bertanya tentang produk *${itemName}*.`;
+  const message = `Halo min, saya ingin pesan produk *${itemName}*.`;
   return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 };
 
@@ -357,7 +392,7 @@ const PaketPage = () => {
               className="flex items-center justify-center w-40 px-6 py-2 rounded bg-secondary text-white hover:bg-primary hover:text-dark shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] transition duration-300 ease-in-out"
             >
               <FaWhatsapp className="mr-2 text-green-500 hover:text-white" />
-              Lebih Lanjut
+              Pesan
             </a>
           </motion.div>
         </section>
