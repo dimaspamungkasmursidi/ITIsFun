@@ -12,7 +12,7 @@ const items = [
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
       "Maximal 5 section\n Desain Template\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
-    price: "Rp.150.000",
+    price: "Rp.170.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -53,7 +53,7 @@ const items = [
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
       "Maximal 3 Halaman\n Desain Template\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
-    price: "Rp.200.000",
+    price: "Rp.220.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -66,7 +66,7 @@ const items = [
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
     "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
-    price: "Rp.250.000",
+    price: "Rp.270.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -79,7 +79,7 @@ const items = [
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
     "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X",
-    price: "Rp.1.000.000",
+    price: "Rp.1.200.000",
     keterangan:
       "Website Profesional, masa aktif Website 1 tahun (Bisa diperpanjang).",
     animation: {
@@ -95,7 +95,7 @@ const items = [
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
     "Maximal 3 Halaman\n Desain Template\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
-    price: "Rp.200.000",
+    price: "Rp.220.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -108,7 +108,7 @@ const items = [
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
     "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
-    price: "Rp.250.000",
+    price: "Rp.270.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -121,7 +121,7 @@ const items = [
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
     "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X",
-    price: "Rp.1.000.000",
+    price: "Rp.1.200.000",
     keterangan: "Website Profesional, masa aktif Website 1 tahun (Bisa diperpanjang).",
     animation: {
       initial: { opacity: 0, scale: 0.8 },

@@ -7,12 +7,12 @@ import { Link } from "react-router-dom";
 
 const items = [
   {
-    title: "Landing Page Simpel",
+    title: "Landing Page Reguler",
     desc1:
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
-      "Maximal 5 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
-    price: "Rp.50.000",
+    "Maximal 7 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+    price: "Rp.200.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -20,12 +20,12 @@ const items = [
     category: "Landing Page",
   },
   {
-    title: "Profile Company Reguler",
+    title: "Profile Company Premium",
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-      "Maximal 3 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
-    price: "Rp.150.000",
+    "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+    price: "Rp.270.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -33,17 +33,16 @@ const items = [
     category: "Profile Company",
   },
   {
-    title: "Personal Website Reguler",
+    title: "CV + Surat Lamaran Pekerjaan",
     desc1:
-      "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
-    desc2:
-      "Maximal 3 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Tanpa Hosting & Domain\n Gratis revisi 2X",
-    price: "Rp.150.000",
+      "Surat Lamaran Pekerjaan + CV siap kirim ke perekrut.",
+      desc2: "Dapat file Word dan Pdf CV + Surat Lamaran Pekerjaan",
+      price: "Rp.20.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Personal Website",
+    category: "Pembuatan CV",
   },
 ];
 
@@ -84,9 +83,9 @@ const PaketBeranda = () => {
             animate={animateInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
             transition={{ duration: 0.8 }}
           >
-            Paket Layanan
+            Paket Populer
           </motion.h1>
-          <motion.p
+          {/* <motion.p
             ref={animateRef}
             className="titillium-semibold max-w-3xl text-justify sm:text-center"
             initial={{ opacity: 0, x: -50 }}
@@ -96,7 +95,7 @@ const PaketBeranda = () => {
             It's Fun Studio menyediakan berbagai paket pembuatan website sesuai
             dengan kebutuhan Anda. Mulai dari hanya Rp 50.000, Anda sudah bisa
             memiliki website untuk bisnis atau keperluan pribadi Anda.
-          </motion.p>
+          </motion.p> */}
         </div>
 
         {/* CARD */}
