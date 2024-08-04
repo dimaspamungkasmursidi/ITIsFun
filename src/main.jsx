@@ -4,6 +4,7 @@ import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import "./index.css";
 import Beranda from "./pages/Beranda";
 import Paket from "./pages/Paket";
+import ContohWebsite from "./pages/ContohWebsite";
 import Kontak from "./pages/Kontak";
 import Tentang from "./pages/Tentang";
 import ErrorPage from "./pages/404";
@@ -27,6 +28,10 @@ const router = createBrowserRouter([
   {
     path: "/paket",
     element: <Paket />,
+  },
+  {
+    path: "/contohwebsite",
+    element: <ContohWebsite />,
   },
   {
     path: "/kontak",

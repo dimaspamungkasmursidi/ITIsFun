@@ -7,17 +7,17 @@ import { Link } from "react-router-dom";
 
 const items = [
   {
-    title: "Landing Page Reguler",
+    title: "Landing Page Simpel",
     desc1:
-      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
-    desc2:
-    "Maximal 7 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
-    price: "Rp.200.000",
+    "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis. Cocok untuk semua kebutuhan.",
+  desc2:
+    "Maximal 5 section\n Desain Template/Custom Simple\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+  price: "Rp.170.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Landing Page",
+    image: "/images/1st.png",
   },
   {
     title: "Profile Company Premium",
@@ -30,24 +30,24 @@ const items = [
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Profile Company",
+    image: "/images/2nd.png",
   },
   {
-    title: "CV + Surat Lamaran Pekerjaan",
-    desc1:
-      "Surat Lamaran Pekerjaan + CV siap kirim ke perekrut.",
-      desc2: "Dapat file Word dan Pdf CV + Surat Lamaran Pekerjaan",
-      price: "Rp.20.000",
+    title: "Website Custom",
+    desc1: "Website Profesional dengan Desain dan Fitur bebas request sesuai keinginan, Cocok untuk semua kebutuhan.",
+    desc2:
+    "Desain Custom\n Request Fitur\n Bebas Pilih Domain\n Responsif di semua perangkat\n SEO friendly\n Dan Lain-lain", 
+    price: "Rp.-",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Pembuatan CV",
+    image: "/images/3rd.png",
   },
 ];
 
 const generateWhatsAppLink = (itemName) => {
-  const phoneNumber = "6288297894942"; // Ganti dengan nomor WhatsApp Anda
+  const phoneNumber = "6288297894942";
   const message = `Halo min, saya ingin bertanya tentang produk *${itemName}*.`;
   return `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
 };
@@ -85,17 +85,6 @@ const PaketBeranda = () => {
           >
             Paket Populer
           </motion.h1>
-          {/* <motion.p
-            ref={animateRef}
-            className="titillium-semibold max-w-3xl text-justify sm:text-center"
-            initial={{ opacity: 0, x: -50 }}
-            animate={animateInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-          >
-            It's Fun Studio menyediakan berbagai paket pembuatan website sesuai
-            dengan kebutuhan Anda. Mulai dari hanya Rp 50.000, Anda sudah bisa
-            memiliki website untuk bisnis atau keperluan pribadi Anda.
-          </motion.p> */}
         </div>
 
         {/* CARD */}
@@ -110,7 +99,7 @@ const PaketBeranda = () => {
               <motion.div
                 ref={cardRef}
                 key={index}
-                className="max-w-sm mx-auto p-6 bg-white/20 backdrop-blur-md rounded-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                className="reltive max-w-sm mx-auto p-6 bg-white/20 backdrop-blur-md rounded-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
                 initial={item.animation.initial}
                 animate={cardInView ? item.animation.animate : item.animation.initial}
                 transition={{ duration: 0.8, delay: index * 0.2 }}
@@ -123,6 +112,9 @@ const PaketBeranda = () => {
                   {item.price}
                 </p>
                 <Button onClick={() => openModal(item)}>Selengkapnya</Button>
+                <div className="absolute -top-4 -right-4 md:-top-8 md:-right-5">
+                  <img src={item.image} alt="Top Paket" className="w-auto h-16 md:w-auto md:h-24 animate-pulse" />
+                </div>
               </motion.div>
             );
           })}

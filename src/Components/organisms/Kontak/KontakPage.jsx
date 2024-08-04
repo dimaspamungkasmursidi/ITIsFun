@@ -33,7 +33,7 @@ const KontakPage = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={textInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -50 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="titillium-semibold max-w-3xl text-justify sm:text-center"
+          className="titillium-semibold w-3/4 text-justify sm:text-center"
         >
           Beri kami masukan terhadap website IT Is Fun Studio ini untuk
           meningkatkan kualitas layanan kami dan memastikan bahwa kami dapat
@@ -57,7 +57,7 @@ const KontakPage = () => {
             Sosial Media
           </motion.h1>
           <div className="flex flex-row justify-center items-center gap-6">
-            <a href="https://www.instagram.com/itsfunacademy/">
+            <a href="https://www.instagram.com/itsfunstudio/">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                 <button>
                   <CiInstagram size={60} />
@@ -71,7 +71,7 @@ const KontakPage = () => {
                 </button>
               </motion.div>
             </a> */}
-            <a href="mailto:dimpam19@gmail.com">
+            <a href="mailto:itisfun@gmail.com">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                 <button>
                   <CiMail size={60} />

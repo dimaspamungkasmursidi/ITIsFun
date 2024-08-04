@@ -1,22 +1,23 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
-import { BsLaptop, BsPerson } from "react-icons/bs";
-import { GrHostMaintenance } from "react-icons/gr";
+import { BsWindow } from "react-icons/bs";
+import { PiNotebookLight } from "react-icons/pi";
+import { LuScreenShareOff } from "react-icons/lu";
 
 const items = [
   {
-    Image: BsLaptop,
+    Image: BsWindow ,
     title: "Pembuatan Website",
     desc: "Kami merancang dan mengembangkan website yang responsif, modern, dan fungsional.",
   },
   {
-    Image: BsPerson,
+    Image: PiNotebookLight,
     title: "Pembuatan CV",
     desc: "Selain website, kami juga menyediakan layanan pembuatan CV profesional.",
   },
   {
-    Image: GrHostMaintenance,
+    Image: LuScreenShareOff ,
     title: "Revisi/Maintenance Website",
     desc: "Kami juga menyediakan layanan revisi dan maintenance mingguan dan bulanan.",
   },

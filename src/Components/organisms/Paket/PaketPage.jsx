@@ -5,7 +5,7 @@ import Button from "../../atoms/Button";
 import { FaWhatsapp } from "react-icons/fa";
 
 const items = [
-  // LANDING PAGE------------------------------------------------------------------------------------------------------------
+  // LANDING PAGE-------------------------------------------------------------------------------------------
   {
     title: "Landing Page Simpel",
     desc1:
@@ -24,7 +24,7 @@ const items = [
     desc1:
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
-    "Maximal 7 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+      "Maximal 7 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
     price: "Rp.200.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -46,7 +46,7 @@ const items = [
     },
     category: "Landing Page",
   },
-  //   PROFILE COMPANY------------------------------------------------------------------------------------------------------------
+  // PROFILE COMPANY---------------------------------------------------------------------------------------
   {
     title: "Profile Company Reguler",
     desc1:
@@ -65,7 +65,7 @@ const items = [
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-    "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
     price: "Rp.270.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -78,7 +78,7 @@ const items = [
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-    "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X",
+      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X",
     price: "Rp.1.200.000",
     keterangan:
       "Website Profesional, masa aktif Website 1 tahun (Bisa diperpanjang).",
@@ -88,13 +88,13 @@ const items = [
     },
     category: "Profile Company",
   },
-  //   PERSONAL WEBSITE------------------------------------------------------------------------------------------------------------
+  // PERSONAL WEBSITE--------------------------------------------------------------------------------------
   {
     title: "Personal Website Reguler",
     desc1:
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
-    "Maximal 3 Halaman\n Desain Template\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+      "Maximal 3 Halaman\n Desain Template\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
     price: "Rp.220.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -107,7 +107,7 @@ const items = [
     desc1:
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
-    "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
     price: "Rp.270.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -120,16 +120,17 @@ const items = [
     desc1:
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
-    "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X",
+      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X",
     price: "Rp.1.200.000",
-    keterangan: "Website Profesional, masa aktif Website 1 tahun (Bisa diperpanjang).",
+    keterangan:
+      "Website Profesional, masa aktif Website 1 tahun (Bisa diperpanjang).",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
     category: "Personal Website",
   },
-  //   WEBSITE CUSTOM------------------------------------------------------------------------------------------------------------
+  // WEBSITE CUSTOM-----------------------------------------------------------------------------------
   {
     title: "Website Custom",
     desc1: "Website custom sesuai kebutuhan. Cocok untuk semua kebutuhan anda.",
@@ -137,14 +138,15 @@ const items = [
     keterangan:
       "Spesifikasi website silahkan diskusikan dengan tim IT Is Fun Studio. Harga tergantung dari spesifikasi website.",
     price: "Rp.-",
-    keterangan: "Mari diskusikan dengan kami website seperti apa yang anda inginkan.",
+    keterangan:
+      "Mari diskusikan dengan kami website seperti apa yang anda inginkan.",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
     category: "Website Custom",
   },
-  //   Pembuatan CV------------------------------------------------------------------------------------------------------------
+  // Pembuatan CV----------------------------------------------------------------------------------------
   {
     title: "CV ATS",
     desc1:
@@ -161,8 +163,8 @@ const items = [
     title: "CV Kreatif",
     desc1:
       "CV Kreatif cocok untuk melamar pekerjaan di industri menengah ke bawah, industri kreatif dan peran yang menuntut kreativitas serta inovasi. Gunakan ini saat Anda tahu perekrut akan menghargai desain visual ataupun ketika Anda mengirimkan CV langsung ke email atau orang yang akan membaca CV tersebut.",
-      desc2: "Dapat file Word dan Pdf CV Kreatif",
-      price: "Rp.15.000",
+    desc2: "Dapat file Word dan Pdf CV Kreatif",
+    price: "Rp.15.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -171,10 +173,9 @@ const items = [
   },
   {
     title: "Surat Lamaran Pekerjaan",
-    desc1:
-      "Surat Lamaran Pekerjaan yang berisi permohonan lamaran pekerjaan.",
-      desc2: "Dapat file Word dan Pdf Surat Lamaran Pekerjaan",
-      price: "Rp.10.000",
+    desc1: "Surat Lamaran Pekerjaan yang berisi permohonan lamaran pekerjaan.",
+    desc2: "Dapat file Word dan Pdf Surat Lamaran Pekerjaan",
+    price: "Rp.10.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -183,17 +184,16 @@ const items = [
   },
   {
     title: "CV + Surat Lamaran Pekerjaan",
-    desc1:
-      "Surat Lamaran Pekerjaan + CV siap kirim ke perekrut.",
-      desc2: "Dapat file Word dan Pdf CV + Surat Lamaran Pekerjaan",
-      price: "Rp.20.000",
+    desc1: "Surat Lamaran Pekerjaan + CV siap kirim ke perekrut.",
+    desc2: "Dapat file Word dan Pdf CV + Surat Lamaran Pekerjaan",
+    price: "Rp.20.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
     category: "Pembuatan CV",
   },
-  //   PEMELIHARAAN------------------------------------------------------------------------------------------------------------
+  // PEMELIHARAAN------------------------------------------------------------------------------------------
   {
     title: "Revisi Website",
     desc1: "Revisi bagian website yang ingin diubah sesuai kebutuhan.",
@@ -206,19 +206,8 @@ const items = [
     category: "Pemeliharaan Website/CV",
   },
   {
-    title: "Revisi CV",
-    desc1: "Revisi bagian CV yang ingin diubah sesuai kebutuhan.",
-    desc2: "Harga untuk 1 kali revisi.",
-    price: "Rp.5.000",
-    animation: {
-      initial: { opacity: 0, scale: 0.8 },
-      animate: { opacity: 1, scale: 1 },
-    },
-    category: "Pemeliharaan Website/CV",
-  },
-  {
-    title: "Revisi Website",
-    desc1: "Revisi bagian kecil website yang ingin diubah sesuai kebutuhan.",
+    title: "Tambah Produk/Konten",
+    desc1: "Menambahkan product baru ata u konten baru kedalam Website.",
     desc2: "Harga untuk 1 kali revisi.",
     price: "Rp.10.000",
     animation: {
@@ -233,6 +222,17 @@ const items = [
       "Memastikan website tetap aktif dan berjalan dengan baik, memperbaharui bagian kecil yang ingin diubah, dan lain-lain.",
     desc2: "Menyediakan maintenance mingguan dan bulanan.",
     price: "Rp.50.000 - Rp.200.000",
+    animation: {
+      initial: { opacity: 0, scale: 0.8 },
+      animate: { opacity: 1, scale: 1 },
+    },
+    category: "Pemeliharaan Website/CV",
+  },
+  {
+    title: "Revisi CV",
+    desc1: "Revisi bagian CV yang ingin diubah sesuai kebutuhan.",
+    desc2: "Harga untuk 1 kali revisi.",
+    price: "Rp.5.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -290,7 +290,7 @@ const PaketPage = () => {
           </motion.h1>
           <motion.p
             ref={animateRef}
-            className="titillium-semibold max-w-3xl text-justify sm:text-center"
+            className="titillium-semibold w-3/4 text-justify sm:text-center"
             initial={{ opacity: 0, x: -50 }}
             animate={
               animateInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }
@@ -298,8 +298,8 @@ const PaketPage = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
           >
             It's Fun Studio menyediakan berbagai paket pembuatan website sesuai
-            dengan kebutuhan Anda. Mulai dari hanya Rp 50.000, Anda sudah bisa
-            memiliki website untuk bisnis atau keperluan pribadi Anda.
+            dengan kebutuhan Anda. Mulai dari hanya Rp 170.000, Anda sudah bisa
+            memiliki website professional untuk bisnis atau keperluan pribadi Anda.
           </motion.p>
         </div>
 
@@ -415,7 +415,7 @@ const Card = ({ item, index, openModal }) => {
       animate={cardInView ? item.animation.animate : item.animation.initial}
       transition={{ duration: 0.5, delay: index * 0.1 }}
     >
-      <h2 className="text-2xl font-bold text-white mb-2 londrina-regular">
+      <h2 className="text-2xl font-bold text-white mb-2 londrina-regular textShadow-title">
         {item.title}
       </h2>
       <p className="text-white line-clamp-3 mb-2">{item.desc1}</p>

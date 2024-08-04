@@ -76,7 +76,8 @@ const Hero = () => {
         className="mt-10 px-4"
       >
         <figure className="max-w-sm md:max-w-lg">
-          <img src="/images/hero.webp" alt="Hero.webp" width={"100%"} height={"100%"} />
+          <img src="/images/hero.webp" alt="Hero.webp" className="w-auto h-auto" />
+          {/* <img src="/images/hero.webp" alt="Hero.webp" width={"100%"} height={"100%"} /> */}
         </figure>
       </motion.div>
     </section>
