@@ -18,6 +18,7 @@ const Footer = () => {
       className="gradientFooter py-4 mt-8"
     >
       <div className="flex flex-col justify-center items-center pt-2 sm:py-0 px-4 sm:px-12">
+        
         <div className="flex flex-col justify-center items-center">
           <Link to="/">
           <img src="darklogo.png" alt="Logo" className="w-20 h-10" />

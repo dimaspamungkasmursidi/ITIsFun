@@ -110,23 +110,16 @@ const websiteTemplates = [
     category: "Landing Page",
   },
   {
-    title: "Iklan Product",
-    image: "images/webimage/catering.png",
+    title: "Real Estate",
+    image: "images/webimage/realestate.png",
     description: "Desain modern untuk startup teknologi.",
     link: "https://ptoduct.netlify.app/",
     category: "Company Profile",
   },
-  {
-    title: "Iklan Product",
-    image: "images/webimage/catering.png",
-    description: "Desain modern untuk startup teknologi.",
-    link: "https://ptoduct.netlify.app/",
-    category: "UMKM Website",
-  },
 ];
 
 const categories = [
-  "All",
+  "Semua Kategori",
   "Website",
   "Landing Page",
   "Company Profile",
@@ -139,7 +132,7 @@ const Contoh = () => {
     threshold: 0.2,
   });
 
-  const [selectedCategory, setSelectedCategory] = useState("All");
+  const [selectedCategory, setSelectedCategory] = useState("Semua Kategori");
   const [searchTerm, setSearchTerm] = useState("");
 
   const handleCategoryChange = (category) => {
@@ -152,7 +145,8 @@ const Contoh = () => {
 
   const filteredTemplates = websiteTemplates.filter(
     (template) =>
-      (selectedCategory === "All" || template.category === selectedCategory) &&
+      (selectedCategory === "Semua Kategori" ||
+        template.category === selectedCategory) &&
       (template.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         template.description.toLowerCase().includes(searchTerm.toLowerCase()))
   );
@@ -191,8 +185,20 @@ const Contoh = () => {
             Mulailah perjalanan kesuksesan digital Anda dengan IT Is Fun Studio.
           </motion.p>
         </div>
-        {/* SEARCH AND FILTER */}
-        <div className="w-full flex flex-col items-center mt-6">
+        <div>
+          <motion.div
+            ref={textRef}
+            initial={{ opacity: 0, y: 50 }}
+            animate={textInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+            transition={{ duration: 0.8, delay: 0.5 }}
+          >
+            <p className="text-xl font-bold londrina-black textShadow-title mt-6 mb-2 text-center">
+              Cari template atau contoh website :
+            </p>
+          </motion.div>
+        </div>
+        {/* SEARCH */}
+        <div className="w-full flex flex-col items-center">
           <input
             type="text"
             value={searchTerm}
@@ -201,14 +207,17 @@ const Contoh = () => {
             className="appearance-none w-full md:w-3/5 p-2 pl-4 mb-4 mt-1 text-secondary bg-glass-light backdrop-blur-md rounded-md focus:outline-none focus:ring-2 focus:ring-secondary focus:border-transparent transition duration-300 shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] placeholder:text-gray-200"
           />
         </div>
-        <div className="w-full relative overflow-x-auto categories-filter mt-2">
+        <div className="w-full relative overflow-x-auto categories-filter">
+          {/* FILTER BUTTONS */}
           <div className="flex items-center sm:justify-center gap-4 py-1 pl-0.5 pr-4 overflow-x-scroll categories-filter">
             {categories.map((category, index) => (
               <button
                 key={index}
                 onClick={() => handleCategoryChange(category)}
                 className={`text-center px-4 py-2 border rounded-md whitespace-nowrap shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] ${
-                  selectedCategory === category ? "bg-secondary text-white border-secondary" : ""
+                  selectedCategory === category
+                    ? "bg-secondary text-white border-secondary"
+                    : ""
                 }`}
               >
                 {category}
@@ -223,7 +232,7 @@ const Contoh = () => {
           {filteredTemplates.map((template, index) => (
             <motion.div
               key={index}
-              className="pb-2 bg-glass-light rounded-md backdrop-blur-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] overflow-hidden"
+              className="pb-2 bg-glass-light rounded-md border backdrop-blur-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] overflow-hidden"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -235,16 +244,20 @@ const Contoh = () => {
                 animate={{ opacity: 1 }}
                 transition={{ delay: 0.2 }}
               />
-              <div className="p-4">
-                <h2 className="text-2xl font-bold text-white londrina-regular textShadow-title">
-                  {template.title}
-                </h2>
-                <p className="mb-4 text-white line-clamp-3">
-                  {template.description}
-                </p>
+              <div className="flex flex-col justify-between p-4">
+                <div>
+                  <h2 className="text-2xl font-bold text-white londrina-regular textShadow-title">
+                    {template.title}
+                  </h2>
+                  <p className="mb-4 text-white line-clamp-3">
+                    {template.description}
+                  </p>
+                </div>
+                <div>
                 <Button onClick={() => (window.location.href = template.link)}>
                   Kunjungi Website
                 </Button>
+                </div>
               </div>
             </motion.div>
           ))}

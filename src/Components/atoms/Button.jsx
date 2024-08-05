@@ -18,7 +18,7 @@ const Button = (props) => {
       type={type}
       disabled={disabled}
       onClick={onClick}
-      className={`flex items-center justify-between px-6 py-2 transition-all rounded ${color} shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] transition duration-300 ease-in-out`}
+      className={`flex items-center justify-between px-5 py-2 transition-all rounded ${color} shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)] transition duration-300 ease-in-out`}
     >
       {children}
     </motion.button>

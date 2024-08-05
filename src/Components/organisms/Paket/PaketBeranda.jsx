@@ -9,10 +9,10 @@ const items = [
   {
     title: "Landing Page Simpel",
     desc1:
-    "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis. Cocok untuk semua kebutuhan.",
-  desc2:
-    "Maximal 5 section\n Desain Template/Custom Simple\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
-  price: "Rp.170.000",
+      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis. Cocok untuk semua kebutuhan.",
+    desc2:
+      "Maximal 5 section\n Desain Template/Custom Simple\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+    price: "Rp.170.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -24,7 +24,7 @@ const items = [
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-    "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
+      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Gratis revisi 2X",
     price: "Rp.270.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -34,9 +34,10 @@ const items = [
   },
   {
     title: "Website Custom",
-    desc1: "Website Profesional dengan Desain dan Fitur bebas request sesuai keinginan, Cocok untuk semua kebutuhan.",
+    desc1:
+      "Website Profesional dengan Desain dan Fitur bebas request sesuai keinginan, Cocok untuk semua kebutuhan.",
     desc2:
-    "Desain Custom\n Request Fitur\n Bebas Pilih Domain\n Responsif di semua perangkat\n SEO friendly\n Dan Lain-lain", 
+      "Desain Custom\n Request Fitur\n Bebas Pilih Domain\n Responsif di semua perangkat\n SEO friendly\n Dan Lain-lain",
     price: "Rp.-",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -73,14 +74,16 @@ const PaketBeranda = () => {
 
   return (
     <>
-      <section className="flex flex-col justify-center items-center p-6 gap-6 pt-10 sm:pt-20">
+      <section className="flex flex-col justify-center items-center p-6 sm:px-8 gap-6 pt-16 sm:pt-20">
         {/* TEXT */}
         <div className="flex flex-col justify-center items-center">
           <motion.h1
             ref={animateRef}
             className="text-4xl font-bold londrina-black textShadow-title"
             initial={{ opacity: 0, y: -50 }}
-            animate={animateInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
+            animate={
+              animateInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }
+            }
             transition={{ duration: 0.8 }}
           >
             Paket Populer
@@ -99,12 +102,14 @@ const PaketBeranda = () => {
               <motion.div
                 ref={cardRef}
                 key={index}
-                className="reltive max-w-sm mx-auto p-6 bg-white/20 backdrop-blur-md rounded-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+                className="reltive max-w-sm mx-auto p-6 bg-white/20 backdrop-blur-md rounded-md border shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
                 initial={item.animation.initial}
-                animate={cardInView ? item.animation.animate : item.animation.initial}
+                animate={
+                  cardInView ? item.animation.animate : item.animation.initial
+                }
                 transition={{ duration: 0.8, delay: index * 0.2 }}
               >
-                <h2 className="text-2xl font-bold text-white mb-2 londrina-regular">
+                <h2 className="text-2xl font-bold text-white mb-2 londrina-regular textShadow-title">
                   {item.title}
                 </h2>
                 <p className="text-white line-clamp-3 mb-2">{item.desc1}</p>
@@ -113,17 +118,24 @@ const PaketBeranda = () => {
                 </p>
                 <Button onClick={() => openModal(item)}>Selengkapnya</Button>
                 <div className="absolute -top-4 -right-4 md:-top-8 md:-right-5">
-                  <img src={item.image} alt="Top Paket" className="w-auto h-16 md:w-auto md:h-24 animate-waving-hand" />
+                  <img
+                    src={item.image}
+                    alt="Top Paket"
+                    className="w-auto h-16 md:w-auto md:h-24 animate-waving-hand"
+                  />
                 </div>
               </motion.div>
             );
           })}
         </div>
-        <Link to="/paket">
-        <div className="mt-4">
-          <Button>Paket Lainnya</Button>
+        <div className="flex gap-2 sm:gap-6 mt-4">
+          <Link to="/paket">
+            <Button>Paket Lainnya</Button>
+          </Link>
+          <Link to="/contohwebsite">
+            <Button color="bg-dark text-white hover:bg-tertiary hover:text-dark">Contoh Website</Button>
+          </Link>
         </div>
-        </Link>
       </section>
 
       {/* MODAL */}
@@ -166,8 +178,10 @@ const PaketBeranda = () => {
               </ul>
             </p>
             <p className="text-[18px] font-bold text-secondary animate-pulse">
-              Untuk melihat paket lainnya {" "}
-              <Link to="/paket" className="text-primary">(Klik Disini)</Link>
+              Untuk melihat paket lainnya{" "}
+              <Link to="/paket" className="text-primary">
+                (Klik Disini)
+              </Link>
             </p>
             <p className="mt-2 mb-4 text-[18px] font-bold text-dark">
               {selectedItem.price}

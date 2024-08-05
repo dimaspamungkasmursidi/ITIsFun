@@ -412,7 +412,7 @@ const Card = ({ item, index, openModal }) => {
   return (
     <motion.div
       ref={cardRef}
-      className="max-w-sm mx-auto p-6 bg-glass-light rounded-md backdrop-blur-sm shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+      className="max-w-sm mx-auto p-6 bg-glass-light rounded-md backdrop-blur-sm border shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
       initial={item.animation.initial}
       animate={cardInView ? item.animation.animate : item.animation.initial}
       transition={{ duration: 0.5, delay: index * 0.1 }}

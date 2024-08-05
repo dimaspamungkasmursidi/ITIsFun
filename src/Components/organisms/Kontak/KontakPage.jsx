@@ -64,13 +64,6 @@ const KontakPage = () => {
                 </button>
               </motion.div>
             </a>
-            {/* <a href="https://www.linkedin.com/in/dimas-pamungkas-mursidi-7511b9262/">
-              <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
-                <button>
-                  <CiLinkedin size={60} />
-                </button>
-              </motion.div>
-            </a> */}
             <a href="mailto:itisfun@gmail.com">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                 <button>
@@ -78,7 +71,7 @@ const KontakPage = () => {
                 </button>
               </motion.div>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=6288297894942">
+            <a href="https://api.whatsapp.com/send?phone=6288297894942&text=Halo%20min.">
               <motion.div whileHover={{ scale: 1.1 }} whileTap={{ scale: 0.9 }}>
                 <button>
                   <AiOutlineWhatsApp size={54} />
@@ -86,30 +79,6 @@ const KontakPage = () => {
               </motion.div>
             </a>
           </div>
-        </div>
-
-        {/* IMAGE */}
-        <div className="absolute hidden sm:block left-0 top-0">
-          <motion.img
-            ref={imageRef}
-            initial={{ opacity: 0, x: 50 }}
-            animate={imageInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="sm:w-72"
-            src="/images/send1.png"
-            alt="Image"
-          />
-        </div>
-        <div className="absolute hidden sm:block right-0 top-0">
-          <motion.img
-            ref={imageRef}
-            initial={{ opacity: 0, y: 50 }}
-            animate={imageInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-            transition={{ duration: 0.8, delay: 0.3 }}
-            className="sm:w-72"
-            src="/images/send2.png"
-            alt="Image"
-          />
         </div>
 
         {/* FORM */}

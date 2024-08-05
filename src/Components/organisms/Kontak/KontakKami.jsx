@@ -44,30 +44,6 @@ const KontakKami = () => {
 
       {/* FORM */}
       <Form />
-
-      {/* IMAGE */}
-      <div className="absolute hidden sm:block left-10 top-10">
-        <motion.img
-          ref={imageRef}
-          initial={{ opacity: 0, x: 50 }}
-          animate={imageInView ? { opacity: 1, x: 0 } : { opacity: 0, x: 50 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="sm:w-72"
-          src="/images/send1.png"
-          alt="Image"
-        />
-      </div>
-      <div className="absolute hidden sm:block right-8 top-8">
-        <motion.img
-          ref={imageRef}
-          initial={{ opacity: 0, y: 50 }}
-          animate={imageInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
-          transition={{ duration: 0.8, delay: 0.3 }}
-          className="sm:w-72"
-          src="/images/send2.png"
-          alt="Image"
-        />
-      </div>
     </section>
   );
 };
