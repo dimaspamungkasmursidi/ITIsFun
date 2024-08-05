@@ -113,7 +113,7 @@ const PaketBeranda = () => {
                 </p>
                 <Button onClick={() => openModal(item)}>Selengkapnya</Button>
                 <div className="absolute -top-4 -right-4 md:-top-8 md:-right-5">
-                  <img src={item.image} alt="Top Paket" className="w-auto h-16 md:w-auto md:h-24 animate-pulse" />
+                  <img src={item.image} alt="Top Paket" className="w-auto h-16 md:w-auto md:h-24 animate-waving-hand" />
                 </div>
               </motion.div>
             );

@@ -33,7 +33,7 @@ const KontakPage = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={textInView ? { opacity: 1, y: 0 } : { opacity: 0, y: -50 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="titillium-semibold w-3/4 text-justify sm:text-center"
+          className="titillium-semibold w-full sm:w-3/4 text-justify sm:text-center"
         >
           Beri kami masukan terhadap website IT Is Fun Studio ini untuk
           meningkatkan kualitas layanan kami dan memastikan bahwa kami dapat

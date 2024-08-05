@@ -25,7 +25,7 @@ const TentangPage = () => {
           initial={{ opacity: 0, x: -50 }}
           animate={textInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="titillium-semibold w-3/4 text-justify sm:text-center"
+          className="titillium-semibold w-full sm:w-3/4 text-justify sm:text-center"
         >
           IT Is Fun Studio adalah penyedia layanan jasa pembuatan website yang
           mengutamakan kualitas dan kepuasan pelanggan. Kami mengkhususkan diri

@@ -290,7 +290,7 @@ const PaketPage = () => {
           </motion.h1>
           <motion.p
             ref={animateRef}
-            className="titillium-semibold w-3/4 text-justify sm:text-center"
+            className="titillium-semibold w-full sm:w-3/4 text-justify sm:text-center"
             initial={{ opacity: 0, x: -50 }}
             animate={
               animateInView ? { opacity: 1, x: 0 } : { opacity: 0, x: -50 }
@@ -299,13 +299,14 @@ const PaketPage = () => {
           >
             It's Fun Studio menyediakan berbagai paket pembuatan website sesuai
             dengan kebutuhan Anda. Mulai dari hanya Rp 170.000, Anda sudah bisa
-            memiliki website professional untuk bisnis atau keperluan pribadi Anda.
+            memiliki website professional untuk bisnis atau keperluan pribadi
+            Anda.
           </motion.p>
         </div>
 
         {/* CATEGORY FILTER */}
-        <div className="w-full overflow-x-auto overflow-y-hidden categories-filter">
-          <div className="flex items-center sm:justify-center gap-4 py-4 pl-0.5 pr-4 overflow-x-scroll overflow-y-hidden categories-filter">
+        <div className="w-full relative overflow-x-auto overflow-y-hidden categories-filter">
+          <div className="flex items-center sm:justify-center gap-4 py-1 pl-0.5 pr-4 overflow-x-scroll overflow-y-hidden categories-filter">
             {[
               "Semua Kategori",
               "Landing Page",
@@ -323,6 +324,7 @@ const PaketPage = () => {
               </Button>
             ))}
           </div>
+          <div className="absolute sm:hidden right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-gray-100/70 to-transparent pointer-events-none"></div>
         </div>
 
         {/* CARD */}
