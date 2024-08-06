@@ -150,13 +150,26 @@ const Contoh = () => {
     setSearchTerm(event.target.value);
   };
 
+//   UNTUK MEMFILTER YANG MEMILIKI 1 CATEGORY
+//   const filteredTemplates = websiteTemplates.filter(
+//     (template) =>
+//       (selectedCategory === "Semua Kategori" ||
+//         template.category === selectedCategory) &&
+//       (template.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+//         template.description.toLowerCase().includes(searchTerm.toLowerCase()))
+//   );
+
+//   UNTUK MEMFILTER YANG MEMILIKI 2 CATEGORY
   const filteredTemplates = websiteTemplates.filter(
     (template) =>
       (selectedCategory === "Semua Kategori" ||
-        template.category === selectedCategory) &&
+        (Array.isArray(template.category)
+          ? template.category.includes(selectedCategory)
+          : template.category === selectedCategory)) &&
       (template.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
         template.description.toLowerCase().includes(searchTerm.toLowerCase()))
   );
+  
 
   return (
     <section className="gap-6 p-6 pt-10 sm:pt-14">
