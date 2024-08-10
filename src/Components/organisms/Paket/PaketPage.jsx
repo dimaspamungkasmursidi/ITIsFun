@@ -133,7 +133,7 @@ const items = [
   // WEBSITE CUSTOM-----------------------------------------------------------------------------------
   {
     title: "Website Custom",
-    desc1: "Website custom sesuai kebutuhan. Cocok untuk semua kebutuhan anda.",
+    desc1: "Website custom sesuai kebutuhan. Bebas pilih Desain, Domain, tech stack MERN atau Laravel, request fitur dan lain-lain.",
     desc2: "Custom.",
     keterangan:
       "Spesifikasi website silahkan diskusikan dengan tim IT Is Fun Studio. Harga tergantung dari spesifikasi website.",
@@ -157,7 +157,7 @@ const items = [
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Pembuatan CV",
+    category: "SEO Optimization",
   },
   {
     title: "SEO ONPAGE Landing Page",
@@ -169,7 +169,7 @@ const items = [
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Pembuatan CV",
+    category: "SEO Optimization",
   },
   // PEMELIHARAAN------------------------------------------------------------------------------------------
   {
@@ -280,7 +280,7 @@ const PaketPage = () => {
               "Profile Company",
               "Personal Website",
               "Website Custom",
-              "Pembuatan CV",
+              "SEO Optimization",
               "Pemeliharaan Website",
             ].map((category) => (
               <Button

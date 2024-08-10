@@ -13,7 +13,7 @@ const items = [
   },
   {
     Image: IoBarChartOutline,
-    title: "SEO On page Optimized",
+    title: "SEO On page Optimization",
     desc: "Meningkatkan peluang pengunjung untuk menemukan website Anda melalui mesin pencari seperti Google.",
   },
   {

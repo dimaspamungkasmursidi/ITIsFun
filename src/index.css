@@ -3,6 +3,11 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+::selection {
+  background-color: #FC4A1A;
+  color: #dfdcf3;
+}
+
 * {
   margin: 0;
   padding: 0;
