@@ -52,7 +52,7 @@ const Form = () => {
           initial={{ opacity: 0, y: 50 }}
           animate={cardInView ? { opacity: 1, y: 0 } : { opacity: 0, y: 50 }}
           transition={{ duration: 0.8 }}
-          className="w-full max-w-2xl h-full p-6 bg-glass-light rounded-md backdrop-blur-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
+          className="w-full max-w-2xl h-full p-6 border bg-glass-light rounded-md backdrop-blur-md shadow-[4.0px_8.0px_8.0px_rgba(0,0,0,0.38)]"
         >
           <form action="" onSubmit={handleSubmit}>
             <fieldset id="fs-frm-inputs">

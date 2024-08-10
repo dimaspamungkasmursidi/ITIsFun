@@ -7,7 +7,7 @@ import { FaWhatsapp } from "react-icons/fa";
 const items = [
   // LANDING PAGE-------------------------------------------------------------------------------------------
   {
-    title: "Landing Page Simpel",
+    title: "Landing Page Reguler",
     desc1:
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
@@ -20,7 +20,7 @@ const items = [
     category: "Landing Page",
   },
   {
-    title: "Landing Page Reguler",
+    title: "Landing Page Premium",
     desc1:
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
@@ -33,7 +33,7 @@ const items = [
     category: "Landing Page",
   },
   {
-    title: "Landing Page Premium",
+    title: "Landing Page Profesional",
     desc1:
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
@@ -146,13 +146,13 @@ const items = [
     },
     category: "Website Custom",
   },
-  // Pembuatan CV----------------------------------------------------------------------------------------
+  // Pembuatan SEO On Page Optimization--------------------------------------------------------------------
   {
-    title: "CV ATS",
+    title: "SEO ONPAGE Website",
     desc1:
-      "CV ATS cocok untuk melamar pekerjaan di industri yang lebih formal dan perusahaan besar yang menggunakan ATS untuk menyaring aplikasi. Gunakan ini untuk memastikan CV Anda melewati penyaringan awal dan sampai ke perekrut manusia.",
-    desc2: "Dapat file Word dan Pdf CV ATS",
-    price: "Rp.15.000",
+      "Dengan SEO ONPAGE, website Anda berpeluang lebih mudah ditemukan, relevan dengan pencarian, dan siap menarik lebih banyak pelanggan potensial",
+    desc2: "Optimasi Code\n Pemilihan dan Optimasi Kata Kunci\n Optimasi Judul dan Meta Deskripsi\n File Robots.txt dan Sitemap.xml",
+    price: "Rp.80.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -160,33 +160,11 @@ const items = [
     category: "Pembuatan CV",
   },
   {
-    title: "CV Kreatif",
+    title: "SEO ONPAGE Landing Page",
     desc1:
-      "CV Kreatif cocok untuk melamar pekerjaan di industri menengah ke bawah, industri kreatif dan peran yang menuntut kreativitas serta inovasi. Gunakan ini saat Anda tahu perekrut akan menghargai desain visual ataupun ketika Anda mengirimkan CV langsung ke email atau orang yang akan membaca CV tersebut.",
-    desc2: "Dapat file Word dan Pdf CV Kreatif",
-    price: "Rp.15.000",
-    animation: {
-      initial: { opacity: 0, scale: 0.8 },
-      animate: { opacity: 1, scale: 1 },
-    },
-    category: "Pembuatan CV",
-  },
-  {
-    title: "Surat Lamaran Pekerjaan",
-    desc1: "Surat Lamaran Pekerjaan yang berisi permohonan lamaran pekerjaan.",
-    desc2: "Dapat file Word dan Pdf Surat Lamaran Pekerjaan",
-    price: "Rp.10.000",
-    animation: {
-      initial: { opacity: 0, scale: 0.8 },
-      animate: { opacity: 1, scale: 1 },
-    },
-    category: "Pembuatan CV",
-  },
-  {
-    title: "CV + Surat Lamaran Pekerjaan",
-    desc1: "Surat Lamaran Pekerjaan + CV siap kirim ke perekrut.",
-    desc2: "Dapat file Word dan Pdf CV + Surat Lamaran Pekerjaan",
-    price: "Rp.20.000",
+    "Dengan SEO ONPAGE, Landing Page Anda berpeluang lebih mudah ditemukan, relevan dengan pencarian, dan siap menarik lebih banyak pelanggan potensial",
+    desc2: "Optimasi Code\n Pemilihan dan Optimasi Kata Kunci\n Optimasi Judul dan Meta Deskripsi\n File Robots.txt dan Sitemap.xml",
+    price: "Rp.50.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -203,7 +181,7 @@ const items = [
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Pemeliharaan Website/CV",
+    category: "Pemeliharaan Website",
   },
   {
     title: "Tambah Produk/Konten",
@@ -214,7 +192,7 @@ const items = [
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Pemeliharaan Website/CV",
+    category: "Pemeliharaan Website",
   },
   {
     title: "Maintenance Website",
@@ -226,18 +204,7 @@ const items = [
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
     },
-    category: "Pemeliharaan Website/CV",
-  },
-  {
-    title: "Revisi CV",
-    desc1: "Revisi bagian CV yang ingin diubah sesuai kebutuhan.",
-    desc2: "Harga untuk 1 kali revisi.",
-    price: "Rp.5.000",
-    animation: {
-      initial: { opacity: 0, scale: 0.8 },
-      animate: { opacity: 1, scale: 1 },
-    },
-    category: "Pemeliharaan Website/CV",
+    category: "Pemeliharaan Website",
   },
 ];
 
@@ -306,7 +273,7 @@ const PaketPage = () => {
 
         {/* CATEGORY FILTER */}
         <div className="w-full relative overflow-x-auto overflow-y-hidden categories-filter">
-          <div className="flex items-center sm:justify-center gap-4 py-1 pl-0.5 pr-4 overflow-x-scroll overflow-y-hidden categories-filter">
+          <div className="flex items-center sm:justify-center gap-4 py-1 pb-4 pl-0.5 pr-4 overflow-x-scroll overflow-y-hidden categories-filter">
             {[
               "Semua Kategori",
               "Landing Page",
@@ -314,7 +281,7 @@ const PaketPage = () => {
               "Personal Website",
               "Website Custom",
               "Pembuatan CV",
-              "Pemeliharaan Website/CV",
+              "Pemeliharaan Website",
             ].map((category) => (
               <Button
                 key={category}
@@ -324,7 +291,7 @@ const PaketPage = () => {
               </Button>
             ))}
           </div>
-          <div className="absolute sm:hidden right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-gray-100/70 to-transparent pointer-events-none"></div>
+          <div className="absolute sm:hidden right-0 top-0 bottom-2 w-8 bg-gradient-to-l from-gray-100/70 to-transparent pointer-events-none"></div>
         </div>
 
         {/* CARD */}

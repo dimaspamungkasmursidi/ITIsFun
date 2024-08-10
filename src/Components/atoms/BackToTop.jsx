@@ -43,7 +43,7 @@ const BackToTop = () => {
           className="p-3 rounded-full shadow-lg bg-secondary text-white"
           aria-label="Back to top"
         >
-          <FaArrowUp className="w-4 h-4" />
+          <FaArrowUp className="w-6 h-6" />
         </motion.button>
       )}
     </div>

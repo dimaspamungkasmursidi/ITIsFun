@@ -7,7 +7,7 @@ import { Link } from "react-router-dom";
 
 const items = [
   {
-    title: "Landing Page Simpel",
+    title: "Landing Page Reguler",
     desc1:
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis. Cocok untuk semua kebutuhan.",
     desc2:
@@ -133,7 +133,7 @@ const PaketBeranda = () => {
             <Button>Paket Lainnya</Button>
           </Link>
           <Link to="/contohwebsite">
-            <Button color="bg-dark text-white hover:bg-tertiary hover:text-dark">Contoh Website</Button>
+            <Button color="bg-dark text-white hover:bg-tertiary hover:text-dark">Pilihan Desain</Button>
           </Link>
         </div>
       </section>

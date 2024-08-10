@@ -7,6 +7,7 @@ import KontakKami from '../Components/organisms/Kontak/KontakKami';
 import TentangBeranda from '../Components/organisms/Tentang/TentangBeranda';
 import Footer from '../Components/organisms/Footer/Footer';
 import BackToTop from '../Components/atoms/BackToTop';
+import WhatsappButton from '../Components/atoms/WhatsappButton';
 
 const Beranda = () => {
   return (
@@ -18,6 +19,7 @@ const Beranda = () => {
     <TentangBeranda />
     <KontakKami />
     <Footer />
+    <WhatsappButton />
     <BackToTop />
     </>
   )

@@ -14,7 +14,7 @@ const Navigation = () => {
   const menuItems = [
     { title: "Beranda", href: "/" },
     { title: "Paket", href: "/paket" },
-    { title: "Contoh Website", href: "/contohwebsite" },
+    { title: "Pilihan Design", href: "/contohwebsite" },
     { title: "Tentang", href: "/tentang" },
     { title: "Kontak", href: "/kontak" },
   ];

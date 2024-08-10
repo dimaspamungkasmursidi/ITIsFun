@@ -40,6 +40,20 @@ const websiteTemplates = [
     category: "Landing Page",
   },
   {
+    title: "Furniture Store",
+    image: "images/webimage/furniture.png",
+    description: "Template Website Furniture Store.",
+    link: "https://itisfunfurniture.netlify.app/",
+    category: ["Website", "UMKM Website", "Company Profile"],
+  },
+  {
+    title: "Villa",
+    image: "images/webimage/villa.png",
+    description: "Template Website Booking Villa Puncak.",
+    link: "https://villarent.netlify.app/",
+    category: ["Website", "Company Profile"],
+  },
+  {
     title: "Rental Mobil",
     image: "images/webimage/rentalmobil.png",
     description: "Template Landing Page Rental Mobil.",
@@ -188,7 +202,7 @@ const Contoh = () => {
             transition={{ duration: 0.8 }}
             className="text-4xl text-center font-bold londrina-black textShadow-title"
           >
-            Template & Contoh Website
+            Template & Contoh Desain Website
           </motion.h1>
           <motion.p
             ref={textRef}
@@ -197,7 +211,7 @@ const Contoh = () => {
             transition={{ duration: 0.8, delay: 0.3 }}
             className="titillium-semibold w-full sm:w-3/4 text-justify sm:text-center"
           >
-            IT Is Fun Studio menawarkan template dan contoh website yang memukau
+            IT Is Fun Studio menawarkan template dan contoh desain website yang memukau
             dengan desain modern dan responsif. Kami menyediakan solusi kreatif
             yang disesuaikan dengan kebutuhan, memastikan tampilan profesional
             dan fungsionalitas optimal. Nikmati dukungan teknis 24/7, menjadikan
@@ -213,7 +227,7 @@ const Contoh = () => {
             transition={{ duration: 0.8, delay: 0.5 }}
           >
             <p className="text-xl font-bold londrina-black textShadow-title mt-6 mb-2 text-center">
-              Cari template atau contoh website :
+              Cari template atau contoh desain website :
             </p>
           </motion.div>
         </div>
@@ -229,7 +243,7 @@ const Contoh = () => {
         </div>
         <div className="w-full relative overflow-x-auto categories-filter">
           {/* FILTER BUTTONS */}
-          <div className="flex items-center sm:justify-center gap-4 py-1 pl-0.5 pr-4 overflow-x-scroll categories-filter">
+          <div className="flex items-center sm:justify-center gap-4 py-1 pb-4 pl-0.5 pr-4 overflow-x-scroll categories-filter">
             {categories.map((category, index) => (
               <button
                 key={index}
@@ -244,7 +258,7 @@ const Contoh = () => {
               </button>
             ))}
           </div>
-          <div className="absolute sm:hidden right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-gray-100/70 to-transparent pointer-events-none"></div>
+          <div className="absolute sm:hidden right-0 top-0 bottom-2 w-8 bg-gradient-to-l from-gray-100/70 to-transparent pointer-events-none"></div>
         </div>
 
         {/* CARDS */}

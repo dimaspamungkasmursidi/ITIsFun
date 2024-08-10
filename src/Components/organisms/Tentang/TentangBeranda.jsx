@@ -2,22 +2,22 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 import { BsWindow } from "react-icons/bs";
-import { PiNotebookLight } from "react-icons/pi";
 import { LuScreenShareOff } from "react-icons/lu";
+import { IoBarChartOutline } from "react-icons/io5";
 
 const items = [
   {
-    Image: BsWindow ,
+    Image: BsWindow,
     title: "Pembuatan Website",
     desc: "Kami merancang dan mengembangkan website yang responsif, modern, dan fungsional.",
   },
   {
-    Image: PiNotebookLight,
-    title: "Pembuatan CV",
-    desc: "Selain website, kami juga menyediakan layanan pembuatan CV profesional.",
+    Image: IoBarChartOutline,
+    title: "SEO On page Optimized",
+    desc: "Meningkatkan peluang pengunjung untuk menemukan website Anda melalui mesin pencari seperti Google.",
   },
   {
-    Image: LuScreenShareOff ,
+    Image: LuScreenShareOff,
     title: "Revisi/Maintenance Website",
     desc: "Kami juga menyediakan layanan revisi dan maintenance mingguan dan bulanan.",
   },
@@ -59,9 +59,9 @@ const TentangBeranda = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="titillium-semibold max-w-3xl text-justify sm:text-center"
         >
-          IT Is Fun Studio adalah penyedia layanan jasa pembuatan website yang
-          berkualitas. Bukan hanya itu, IT Is Fun juga menyediakan layanan
-          pembuatan CV profesional.
+          IT Is Fun Studio adalah penyedia layanan jasa pembuatan website
+          profesional, SEO On page Optimized, dan maintenance website yang
+          berkualitas dengan harga terjangkau.
         </motion.p>
       </div>
 

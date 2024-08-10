@@ -43,8 +43,8 @@ const Hero = () => {
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
             >
-              Kami menyediakan jasa pembuatan website yang sesuai dengan
-              kebutuhan Anda, dengan tampilan yang responsif memastikan
+              Kami menyediakan jasa pembuatan website profesional yang sesuai
+              dengan kebutuhan. dengan tampilan yang responsif memastikan
               pengalaman pengguna yang optimal di semua perangkat.
               <span className="hidden sm:block">
                 Dengan desain modern dan fungsionalitas yang tinggi, kami
