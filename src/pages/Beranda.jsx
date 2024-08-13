@@ -8,6 +8,7 @@ import TentangBeranda from '../Components/organisms/Tentang/TentangBeranda';
 import Footer from '../Components/organisms/Footer/Footer';
 import BackToTop from '../Components/atoms/BackToTop';
 import WhatsappButton from '../Components/atoms/WhatsappButton';
+import DomainPricing from '../Components/organisms/Paket/DomainPricing';
 
 const Beranda = () => {
   return (
@@ -16,6 +17,7 @@ const Beranda = () => {
     <Hero />
     <MarqueeText />
     <PaketBeranda />
+    <DomainPricing />
     <TentangBeranda />
     <KontakKami />
     <Footer />

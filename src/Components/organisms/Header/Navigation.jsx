@@ -46,7 +46,7 @@ const Navigation = () => {
   return (
     // <nav className="backdrop-blur-lg gradientNav p-4 sticky top-0 z-50">
     <nav className="backdrop-blur-lg gradientNav p-4">
-      <div className="container mx-auto md:px-6">
+      <div className="mx-auto md:px-6">
         <div className="flex justify-between items-center">
           <motion.div
             initial={{ opacity: 0, y: -20 }}
