@@ -7,7 +7,7 @@ const websiteTemplates = [
   {
     title: "IT Is Fun Website",
     image: "images/webimage/itisfun.png",
-    description: "Website Oficial IT Is Fun Studio .",
+    description: "Website Oficial IT Is Fun Studio.",
     link: "https://itisfun.my.id/",
     category: ["Website", "Company Profile"],
   },
@@ -26,13 +26,6 @@ const websiteTemplates = [
     category: ["Website", "UMKM Website"],
   },
   {
-    title: "Trhifting Website",
-    image: "images/webimage/thrifting.png",
-    description: "Template Landing Page bisnis Thrifting.",
-    link: "https://thrifting.netlify.app/",
-    category: "Landing Page",
-  },
-  {
     title: "SkinCare Website",
     image: "images/webimage/skincareman.png",
     description: "Template Landing Page bisnis Skin Care.",
@@ -45,6 +38,13 @@ const websiteTemplates = [
     description: "Template Website Furniture Store.",
     link: "https://itisfunfurniture.netlify.app/",
     category: ["Website", "UMKM Website", "Company Profile"],
+  },
+  {
+    title: "Toko Baju/Hijab",
+    image: "images/webimage/hijab.png",
+    description: "Contoh website Toko Baju/Hijab.",
+    link: "https://abiragrosir.com/Bajuprintingeksklusifica?fbclid=IwZXh0bgNhZW0BMAABHXlsOkRavvDzE76cVSatEy9Mit9Gxp2OcwL_Gz6reJ4ymfvZDzifnb8ZSw_aem_7ScCWLTmiDrxW1TKdfY6zw&utm_medium=paid&utm_source=fb&utm_id=120206001142430080&utm_content=120206001142440080&utm_term=120206001142420080&utm_campaign=120206001142430080",
+    category: "Landing Page",
   },
   {
     title: "Villa",
@@ -65,6 +65,13 @@ const websiteTemplates = [
     image: "images/webimage/motor.png",
     description: "Template Landing Page Rental Motor.",
     link: "https://sewamotorbali.netlify.app/",
+    category: "Landing Page",
+  },
+  {
+    title: "Trhifting Website",
+    image: "images/webimage/thrifting.png",
+    description: "Template Landing Page bisnis Thrifting.",
+    link: "https://thrifting.netlify.app/",
     category: "Landing Page",
   },
   {

@@ -187,7 +187,7 @@ const items = [
     title: "Perpanjang Paket Premium",
     desc1: "Perpanjang masa aktif landing page/website paket premium.",
     desc2: "Untuk Domain .my.id\n Perpanjang Hosting\n Harga untuk 1 tahun.",
-    price: "Rp.50.000",
+    price: "Rp.60.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -219,7 +219,7 @@ const items = [
   },
   {
     title: "Tambah Produk/Konten",
-    desc1: "Menambahkan product baru ata u konten baru kedalam Website.",
+    desc1: "Menambahkan product baru atau konten baru kedalam Website.",
     desc2: "Harga untuk 1 kali revisi.",
     price: "Rp.10.000",
     animation: {
