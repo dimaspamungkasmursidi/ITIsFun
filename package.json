@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://itisfun.my.id/",
+  "homepage": "https://itisfun.vercel.app/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
