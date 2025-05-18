@@ -61,6 +61,13 @@ const websiteTemplates = [
     category: "Landing Page",
   },
   {
+    title: "Perpustakaan Desa Babelan",
+    image: "images/webimage/perpustakaan.png",
+    description: "Template Website Jasa Pembuatan Miniatur.",
+    link: "https://perpustakaandesababelankota.my.id/",
+    category: ["Website", "Company Profile"],
+  },
+  {
     title: "Produsen Pupuk",
     image: "images/webimage/produsenpupuk.jpg",
     description: "Template Website Produsen Pupuk.",

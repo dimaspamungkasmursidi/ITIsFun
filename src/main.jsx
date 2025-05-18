@@ -5,6 +5,7 @@ import "./index.css";
 import Beranda from "./pages/Beranda";
 import Paket from "./pages/Paket";
 import ContohWebsite from "./pages/ContohWebsite";
+import Portofolio from "./pages/Portofolio";
 import Kontak from "./pages/Kontak";
 import Tentang from "./pages/Tentang";
 import ErrorPage from "./pages/404";
@@ -32,6 +33,10 @@ const router = createBrowserRouter([
   {
     path: "/contohwebsite",
     element: <ContohWebsite />,
+  },
+  {
+    path: "/portofolio",
+    element: <Portofolio />,
   },
   {
     path: "/kontak",

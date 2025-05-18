@@ -2,8 +2,15 @@ import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
 const Button = (props) => {
-  const { children, color = "bg-secondary text-white hover:bg-tertiary hover:text-dark", onClick = () => {}, type = "submit", disabled } = props;
-  
+  const {
+    children,
+    color = "bg-secondary text-white hover:bg-tertiary hover:text-dark",
+    onClick = () => {},
+    type = "submit",
+    disabled,
+    className = "",
+  } = props;
+
   const [animateRef, animateInView] = useInView({
     triggerOnce: true,
     threshold: 0.5,

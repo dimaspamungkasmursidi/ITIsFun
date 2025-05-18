@@ -15,6 +15,7 @@ const Navigation = () => {
     { title: "Beranda", href: "/" },
     { title: "Paket", href: "/paket" },
     { title: "Pilihan Design", href: "/contohwebsite" },
+    // { title: "Portofolio", href: "/portofolio" },
     { title: "Tentang", href: "/tentang" },
     { title: "Kontak", href: "/kontak" },
   ];

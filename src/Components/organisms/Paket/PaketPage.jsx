@@ -9,7 +9,7 @@ const items = [
   {
     title: "Landing Page Reguler",
     desc1:
-      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
+      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda. Tidak support google ads.",
     desc2:
       "Maximal 5 section\n Desain Template/Custom Simple\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Atau Request Domain (+ biaya)\n Gratis revisi 2X\n Bisa perpanjang masa aktif",
     price: "Rp.170.000",
@@ -22,7 +22,7 @@ const items = [
   {
     title: "Landing Page Premium",
     desc1:
-      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
+      "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda. Tidak support google ads.",
     desc2:
       "Maximal 7 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting\n Free Domain .my.id (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Gratis revisi 2X\n Bisa perpanjang masa aktif",
     price: "Rp.200.000",
@@ -38,7 +38,8 @@ const items = [
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
       "Maximal 10 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X",
-    keterangan: "Website Profesional, masa aktif 1 tahun (Bisa diperpanjang).\n Bisa perpanjang masa aktif",
+    keterangan:
+      "Website Profesional, masa aktif 1 tahun (Bisa diperpanjang).\n Bisa perpanjang masa aktif",
     price: "Rp.800.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -50,7 +51,7 @@ const items = [
   {
     title: "Profile Company Reguler",
     desc1:
-      "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
+      "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain. Tidak support google ads.",
     desc2:
       "Maximal 3 Halaman\n Desain Template\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Gratis revisi 2X\n Bisa perpanjang masa aktif",
     price: "Rp.220.000",
@@ -63,7 +64,7 @@ const items = [
   {
     title: "Profile Company Premium",
     desc1:
-      "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
+      "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain. Tidak support google ads.",
     desc2:
       "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Gratis revisi 2X\n Bisa perpanjang masa aktif",
     price: "Rp.270.000",
@@ -92,7 +93,7 @@ const items = [
   {
     title: "Personal Website Reguler",
     desc1:
-      "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
+      "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain. Tidak support google ads.",
     desc2:
       "Maximal 3 Halaman\n Desain Template\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Gratis revisi 2X\n Bisa perpanjang masa aktif",
     price: "Rp.220.000",
@@ -105,7 +106,7 @@ const items = [
   {
     title: "Personal Website Premium",
     desc1:
-      "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
+      "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain. Tidak support google ads.",
     desc2:
       "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Free Hosting \n Free Domain .my.id (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Gratis revisi 2X\n Bisa perpanjang masa aktif",
     price: "Rp.270.000",
@@ -133,8 +134,9 @@ const items = [
   // WEBSITE CUSTOM-----------------------------------------------------------------------------------
   {
     title: "Website Custom",
-    desc1: "Website custom sesuai kebutuhan. Bebas pilih Desain, Domain, tech stack MERN atau Laravel, request fitur dan lain-lain.",
-    desc2: "Custom.",
+    desc1:
+      "Website custom sesuai kebutuhan. Bebas pilih Desain, Domain, request fitur dan lain-lain.",
+    desc2: "Custom Design\n Custom Domain\n Custom Fitur\n Free Hosting & Domain\n Lengkap",
     keterangan:
       "Spesifikasi website silahkan diskusikan dengan tim IT Is Fun Studio. Harga tergantung dari spesifikasi website.\n Bisa perpanjang masa aktif",
     price: "Rp.-",
@@ -151,7 +153,8 @@ const items = [
     title: "SEO ONPAGE Website",
     desc1:
       "Dengan SEO ONPAGE, website Anda berpeluang lebih mudah ditemukan, relevan dengan pencarian, dan siap menarik lebih banyak pelanggan potensial",
-    desc2: "Optimasi Code\n Pemilihan dan Optimasi Kata Kunci\n Optimasi Judul dan Meta Deskripsi\n File Robots.txt dan Sitemap.xml\n Bisa perpanjang masa aktif",
+    desc2:
+      "Optimasi Code\n Pemilihan dan Optimasi Kata Kunci\n Optimasi Judul dan Meta Deskripsi\n File Robots.txt dan Sitemap.xml\n Bisa perpanjang masa aktif",
     price: "Rp.80.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -162,8 +165,9 @@ const items = [
   {
     title: "SEO ONPAGE Landing Page",
     desc1:
-    "Dengan SEO ONPAGE, Landing Page Anda berpeluang lebih mudah ditemukan, relevan dengan pencarian, dan siap menarik lebih banyak pelanggan potensial",
-    desc2: "Optimasi Code\n Pemilihan dan Optimasi Kata Kunci\n Optimasi Judul dan Meta Deskripsi\n File Robots.txt dan Sitemap.xml\n Bisa perpanjang masa aktif",
+      "Dengan SEO ONPAGE, Landing Page Anda berpeluang lebih mudah ditemukan, relevan dengan pencarian, dan siap menarik lebih banyak pelanggan potensial",
+    desc2:
+      "Optimasi Code\n Pemilihan dan Optimasi Kata Kunci\n Optimasi Judul dan Meta Deskripsi\n File Robots.txt dan Sitemap.xml\n Bisa perpanjang masa aktif",
     price: "Rp.50.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -176,7 +180,7 @@ const items = [
     title: "Perpanjang Paket Reguler",
     desc1: "Perpanjang masa aktif landing page/website paket reguler.",
     desc2: "Untuk Domain .my.id\n Perpanjang Hosting\n Harga untuk 1 tahun.",
-    price: "Rp.50.000",
+    price: "Rp.150.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -187,7 +191,7 @@ const items = [
     title: "Perpanjang Paket Premium",
     desc1: "Perpanjang masa aktif landing page/website paket premium.",
     desc2: "Untuk Domain .my.id\n Perpanjang Hosting\n Harga untuk 1 tahun.",
-    price: "Rp.60.000",
+    price: "Rp.170.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -321,6 +325,11 @@ const PaketPage = () => {
               <Button
                 key={category}
                 onClick={() => setSelectedCategory(category)}
+                color={
+                  selectedCategory === category
+                    ? "bg-dark text-white hover:bg-white hover:text-dark hover:border hover:border-dark"
+                    : "bg-secondary text-white hover:bg-white hover:text-dark hover:border hover:border-dark"
+                }
               >
                 {category}
               </Button>
