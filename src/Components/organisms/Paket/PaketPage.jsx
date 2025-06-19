@@ -37,7 +37,7 @@ const items = [
     desc1:
       "Landing Page Website untuk apapun, bisa untuk personal website, memperkenalkan produk, ataupun profil website bisnis anda. Cocok untuk semua kebutuhan anda.",
     desc2:
-      "Maximal 10 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X",
+      "Maximal 10 section\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\nFree Hosting\n Free Domain .com (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Free SSL\n Gratis revisi 2X",
     keterangan:
       "Website Profesional, masa aktif 1 tahun (Bisa diperpanjang).\n Bisa perpanjang masa aktif",
     price: "Rp.800.000",
@@ -79,7 +79,7 @@ const items = [
     desc1:
       "Website profil perusahaan untuk mengenalkan produk, layanan, ataupun bisnis Anda. Cocok untuk UMKM, Bisnis, Sekolah, dan lain-lain.",
     desc2:
-      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X\n Bisa perpanjang masa aktif",
+      "Maximal 5 Halaman\n Fitur CRUD\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\nFree Hosting\n Free Domain .com (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X\n Bisa perpanjang masa aktif",
     price: "Rp.1.200.000",
     keterangan:
       "Website Profesional, masa aktif Website 1 tahun (Bisa diperpanjang).",
@@ -121,7 +121,7 @@ const items = [
     desc1:
       "Personal Website untuk dijadikan website portofolio ataupun memperkenalkan diri. Cocok untuk memperlihatkan project yang telah anda buat atau untuk dijadikan portofolio, dan lain-lain.",
     desc2:
-      "Maximal 5 Halaman\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\n Web Security\nFree Hosting\n Free Domain .com (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X\n Bisa perpanjang masa aktif",
+      "Maximal 5 Halaman\n Fitur CRUD\n Desain Custom\n Responsif di semua perangkat\n SEO friendly\nFree Hosting\n Free Domain .com (1 Tahun)\n Atau Request Domain (+ biaya tambahan)\n Free SSL\n Email profesional gratis\n Gratis revisi 2X\n Bisa perpanjang masa aktif",
     price: "Rp.1.200.000",
     keterangan:
       "Website Profesional, masa aktif Website 1 tahun (Bisa diperpanjang).",
@@ -154,7 +154,7 @@ const items = [
     desc1:
       "Dengan SEO ONPAGE, website Anda berpeluang lebih mudah ditemukan, relevan dengan pencarian, dan siap menarik lebih banyak pelanggan potensial",
     desc2:
-      "Optimasi Code\n Pemilihan dan Optimasi Kata Kunci\n Optimasi Judul dan Meta Deskripsi\n File Robots.txt dan Sitemap.xml\n Bisa perpanjang masa aktif",
+      "Optimasi Code\n Pemilihan dan Optimasi Kata Kunci\n Optimasi Judul dan Meta Deskripsi",
     price: "Rp.80.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -167,7 +167,7 @@ const items = [
     desc1:
       "Dengan SEO ONPAGE, Landing Page Anda berpeluang lebih mudah ditemukan, relevan dengan pencarian, dan siap menarik lebih banyak pelanggan potensial",
     desc2:
-      "Optimasi Code\n Pemilihan dan Optimasi Kata Kunci\n Optimasi Judul dan Meta Deskripsi\n File Robots.txt dan Sitemap.xml\n Bisa perpanjang masa aktif",
+      "Optimasi Code\n Pemilihan dan Optimasi Kata Kunci\n Optimasi Judul dan Meta Deskripsi",
     price: "Rp.50.000",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
@@ -180,7 +180,7 @@ const items = [
     title: "Perpanjang Paket Reguler",
     desc1: "Perpanjang masa aktif landing page/website paket reguler.",
     desc2: "Untuk Domain .my.id\n Perpanjang Hosting\n Harga untuk 1 tahun.",
-    price: "Rp.150.000",
+    price: "Rp.-",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -191,7 +191,7 @@ const items = [
     title: "Perpanjang Paket Premium",
     desc1: "Perpanjang masa aktif landing page/website paket premium.",
     desc2: "Untuk Domain .my.id\n Perpanjang Hosting\n Harga untuk 1 tahun.",
-    price: "Rp.170.000",
+    price: "Rp.-",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
@@ -202,7 +202,7 @@ const items = [
     title: "Perpanjang Paket Profesional",
     desc1: "Perpanjang masa aktif landing page/website paket profesional.",
     desc2: "Untuk Domain .com\n Perpanjang Hosting\n Harga untuk 1 tahun.",
-    price: "Rp.900.000",
+    price: "Rp.-",
     animation: {
       initial: { opacity: 0, scale: 0.8 },
       animate: { opacity: 1, scale: 1 },
