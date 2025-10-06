@@ -56,10 +56,11 @@ const TentangPage = () => {
           animate={visiInView ? { opacity: 1, y: 0 } : {}}
           className="bg-glass-light p-6 rounded-lg shadow-md backdrop-blur-sm border"
         >
-          <h2 className="text-2xl font-bold text-secondary mb-2">Visi Kami</h2>
+          <h2 className="text-center text-2xl font-bold text-secondary mb-2">Visi Kami</h2>
           <p className="titillium-regular text-justify">
-            Menjadi studio teknologi kreatif terpercaya di Indonesia yang
-            membantu UMKM, individu, dan organisasi tumbuh secara digital.
+            Menjadi software house yang membantu UMKM di Indonesia tumbuh dan bertransformasi digital melalui solusi teknologi yang terjangkau, modern, dan menyenangkan.
+            Kami percaya setiap pelaku usaha berhak punya website profesional tanpa biaya mahal, karena digitalisasi bukan kemewahan, tapi kebutuhan.
+            Dengan semangat kolaborasi dan inovasi, Itss Fun Studio hadir untuk membantu UMKM tumbuh, bersaing, dan dikenal lebih luas di era digital.
           </p>
         </motion.div>
 
@@ -70,14 +71,14 @@ const TentangPage = () => {
           transition={{ ...animationConfig.transition, delay: 0.2 }}
           className="bg-glass-light p-6 rounded-lg shadow-md backdrop-blur-sm border"
         >
-          <h2 className="text-2xl font-bold text-secondary mb-2">Misi Kami</h2>
+          <h2 className="text-center text-2xl font-bold text-secondary mb-2">Misi Kami</h2>
           <ul className="list-disc list-inside titillium-regular space-y-1">
             <li>
-              Menyediakan layanan web development berkualitas & terjangkau
+              Menyediakan layanan pengembangan website dan aplikasi dengan harga yang ramah bagi UMKM, tanpa mengurangi kualitas desain, fitur, dan performa
             </li>
-            <li>Memberikan solusi teknologi yang efisien dan tepat sasaran</li>
+            <li>Membantu UMKM masuk ke dunia digital agar lebih mudah dikenal dan dipercaya pelanggan</li>
             <li>
-              Membantu UMKM, organisasi, dan individu tumbuh secara digital
+              Menjadi mitra digital jangka panjang bagi UMKM dengan solusi yang berkelanjutan dan inovatif
             </li>
           </ul>
         </motion.div>
@@ -95,17 +96,17 @@ const TentangPage = () => {
           Kenapa Memilih Kami?
         </h2>
         <ul className="grid grid-cols-1 sm:grid-cols-2 gap-4 titillium-regular">
+          <li>✅ Harga terjangkau, khusus untuk UMKM</li>
           <li>✅ Desain Custom, Responsif, & Modern</li>
-          <li>✅ Gratis Domain & Hosting</li>
-          <li>✅ Revisi Gratis</li>
           <li>✅ SEO Friendly dan Cepat Diakses</li>
-          <li>✅ Dukungan Pelanggan 24/7</li>
-          <li>✅ Tim Berpengalaman di Bidangnya</li>
-          <li>✅ Harga Terjangkau</li>
-          <li>✅ Garansi Uang Kembali</li>
+          <li>✅ Gratis Domain & Hosting</li>
           <li>✅ Proses Cepat dan Efisien</li>
-          <li>✅ Pembayaran Mudah dan Aman</li>
+          <li>✅ Dukungan Pelanggan 24/7</li>
           <li>✅ Pembayaran diakhir proyek</li>
+          <li>✅ Revisi Gratis</li>
+          <li>✅ Pembayaran Mudah dan Aman</li>
+          <li>✅ Garansi</li>
+          <li>✅ Tim Berpengalaman di Bidangnya</li>
           <li>✅ Dan banyak lagi..</li>
         </ul>
       </motion.div>
